@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import ConnectionImg from "../../asset/image/pexels-pixabay-262353.jpg";
+import ConnectionImg from "../../asset/image/pexels-pixabay-220201.jpg";
 import { IoLocationSharp } from "react-icons/io5";
 
 import { Button, Input, Space } from "antd";
@@ -33,7 +33,7 @@ function HomeScreen() {
             </div>
           </div>
         </div>
-        <div className="homeScreen-Box4">
+        {/* <div className="homeScreen-Box4">
           <div className="homeScreen-Box5">
             <div className="homeScreen-Box6">
               <div className="homeScreen-Box7">
@@ -85,7 +85,7 @@ function HomeScreen() {
               // onSearch={onSearch}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
