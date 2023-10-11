@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles.scss";
+import "./style.scss";
 import { Row, Col } from "react-bootstrap";
-function ChooseGoshare() {
+function Block2() {
   return (
     <>
       <div className="ChooseGoshare-Box1">
@@ -19,4 +19,4 @@ function ChooseGoshare() {
   );
 }
 
-export default ChooseGoshare;
+export default Block2;

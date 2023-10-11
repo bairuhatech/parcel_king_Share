@@ -4,7 +4,7 @@ import "./App.css";
 import WebsiteHeader from "./component/websiteHeader";
 import WebsiteFooter from "./component/websiteFooter";
 import { Routes, Route } from "react-router-dom";
-import Home from "./app/home";
+import Home from "./app/homeScreen/index";
 
 function App() {
   return (
