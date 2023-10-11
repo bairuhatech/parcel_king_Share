@@ -1,4 +1,15 @@
 @use "../../config/variable.scss" as vars;
+/////////////////////////////////////////////
+.block-Txt1 {
+  width: 100%;
+  // height: 40px;
+  //   background-color: white;
+  font-family: vars.$Montserrat-ExtraBold;
+  font-size: 38px;
+  text-align: center;
+  color: vars.$Primary-Color;
+}
+/////////////////////////////////////////////
 .homeScreen-Box1 {
   width: 100%;
   height: 100vh;
@@ -42,13 +53,19 @@
   font-size: 48px;
   color: white;
   opacity: 0.8;
+  @media only screen and (max-width: 576px) {
+    font-size: 32px;
+  }
 }
 .homeScreen-Txt2 {
   font-family: vars.$Montserrat-Medium;
-  font-size: 14px;
+  font-size: 18px;
   color: white;
   opacity: 0.8;
   padding-top: 10px;
+  @media only screen and (max-width: 576px) {
+    font-size: 10px;
+  }
 }
 .homeScreen-BookBttn {
   width: 200px;
@@ -63,144 +80,84 @@
   }
 }
 ////////////////////////------------------BLOCK--2---------------///////////////////////////////
-.ChooseGoshare-Box1 {
-  background-color: #3697f4;
+.block3-Box1 {
+  background-color: vars.$Primary-Color2;
   padding: 20px;
 }
-.ChooseGoshare-Box2 {
+.block3-Box3 {
   width: 100%;
-  height: 40px;
-  //   background-color: white;
-  font-family: vars.$Montserrat-ExtraBold;
-  font-size: 38px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 16px;
   text-align: center;
-  color: white;
+  color: vars.$Primary-Color;
+  padding-bottom: 10px;
 }
-.ChooseGoshare-Box3 {
+.block3-Box4 {
   width: 100%;
   height: 100vh;
   padding: 10px;
-  //   background: yellow;
 }
-// .homeScreen-Box4 {
-//   width: 68%;
-//   height: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: flex-start;
-//   @media only screen and (max-width: 576px) {
-//     // width: 100%;
-//     display: none;
-//   }
-// }
-// .homeScreen-Box5 {
-//   width: 100%;
-//   background-color: white;
-//   border-radius: 6px;
-// }
-// .homeScreen-Box6 {
-//   width: 100%;
-//   height: 100%;
-//   border-radius: 6px 6px 0px 0px;
-// }
-// .homeScreen-Box7 {
-//   width: 100%;
-//   border-radius: 6px 6px 0px 0px;
-//   display: flex;
-// }
-// .homeScreen-Box8 {
-//   width: 100%;
-//   background-color: rgba(0, 0, 0, 0.25);
-//   border-radius: 6px 0px 0px 0px;
-//   text-align: center;
-//   padding: 12px;
-//   font-family: vars.$Montserrat-Medium;
-//   color: white;
-//   font-size: 18px;
-// }
-// .homeScreen-Box9 {
-//   width: 100%;
-//   background-color: #ff0a0a;
-//   border-radius: 0px 6px 0px 0px;
-//   text-align: center;
-//   padding: 12px;
-//   font-family: vars.$Montserrat-Medium;
-//   color: white;
-//   font-size: 18px;
-// }
-// .homeScreen-Box10 {
-//   width: 100%;
-//   border-radius: 0px 0px 6px 6px;
-//   padding: 16px;
-// }
-// .homeScreen-Box11 {
-//   display: flex;
-//   width: 100%;
-// }
-// .homeScreen-Box12 {
-//   width: 100%;
-//   text-align: center;
-//   padding: 6px;
-//   font-family: vars.$Montserrat-Bold;
-//   color: white;
-//   font-size: 16px;
-//   // height: 70px;
-// }
-// .homeScreen-Box13 {
-//   width: 100%;
-//   text-align: center;
-//   padding: 6px;
-//   font-family: vars.$Montserrat-Bold;
-//   color: white;
-//   font-size: 16px;
-// }
-// .homeScreen-input {
-//   height: 100%;
-// }
-// .homeScreen-input::placeholder {
-//   font-family: vars.$Montserrat-Bold;
-//   font-weight: bolder !important;
-//   font-size: 16px;
-// }
-// .homeScreen-Bttn1 {
-//   width: 100%;
-//   height: 100%;
-//   background-color: green;
-//   font-family: vars.$Montserrat-SemiBold;
-//   font-size: 14px;
-//   color: white;
-// }
-// .homeScreen-Box14 {
-//   margin-top: 20px;
-//   width: 100%;
-//   background-color: white;
-//   border-radius: 6px;
-//   display: flex;
-// }
-
-// .homeScreen-SearchInput input {
-//   font-size: 14px !important;
-//   font-family: vars.$Montserrat-Medium;
-//   height: 40px !important;
-// }
-
-// .homeScreen-SearchInput button {
-//   font-size: 20px !important;
-//   font-family: vars.$Montserrat-Medium;
-//   height: 50px !important;
-//   background-color: green;
-// }
-
-// .homeScreen-BookBttn {
-//   width: 200px;
-//   background-color: #ff0a0a;
-//   border: none;
-//   font-family: vars.$Montserrat-Bold;
-//   color: white;
-//   font-size: 14px;
-//   height: 40px;
-//   &:hover {
-//     color: white !important;
-//   }
-// }
+.block3-Box5 {
+  width: 100%;
+  height: 100%;
+  // background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block3-Box6 {
+  width: 30%;
+  min-height: 360px;
+  // background-color: black;
+  padding: 16px;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.block3-Box7 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+}
+.block3-Box8 {
+  width: 100%;
+  height: 200px;
+  // background-color: orange;
+  border-radius: 6px;
+}
+.block3-Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.block3-Txt1 {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+.block3-Txt2 {
+  font-family: vars.$Montserrat-Medium;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+}
+////////////////////////////////------BLOCK-4--------///////////////////////////////////
+.block4-Box1 {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  padding: 20px;
+}
+.block4-Box2 {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+.block4-Box3 {
+  width: 100%;
+  height: 100%;
+  background-color: vars.$Primary-Color;
+}

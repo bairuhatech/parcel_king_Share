@@ -11,10 +11,9 @@
 .websiteHeader-Box2 {
   width: 100%;
   height: 80px;
-  //   background-color: yellow;
-  //   display: flex;
-  //   align-items: center;
   padding: 30px;
+  display: flex;
+  align-items: center;
 }
 .websiteHeader-Box3 {
   width: 100%;
@@ -35,7 +34,7 @@
   color: white;
 }
 .img-header {
-  width: 120px;
+  width: 100px;
   object-fit: cover;
 }
 .webSiteHeader-Box4 {
