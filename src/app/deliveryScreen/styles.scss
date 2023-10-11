@@ -1,0 +1,42 @@
+.StartOfDelivery{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.headerOfDelivery{
+    height: 15%;
+    // background-color: green;
+    font-family: "Montserrat-ExtraBold";
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.firstpart{
+    height: 85%;
+    background-color: yellow;   
+    font-family: "Montserrat-Medium"; 
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliveryImages{
+    height: 85%;
+    background-color: red;
+    display: flex;
+}
+.firstCard{
+    height: 40%;
+    background-color: green;
+}
+.secondCard{
+    height: 40%;
+    background-color: aqua;
+}
+.carImage{
+    width: 100%;
+    height: 30%;
+    background-color: green;
+}

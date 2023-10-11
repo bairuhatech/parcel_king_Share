@@ -1,14 +1,16 @@
 import React from "react";
 import WebsiteHeader from "../../component/websiteHeader";
-import WebsiteFooter from "../../component/websiteFooter";
 import HomeScreen from "../homeScreen";
+import Footer from "../../component/websiteFooter";
+import DeliveryScreen from "../deliveryScreen";
 
 function Home() {
   return (
     <>
       <WebsiteHeader />
       <HomeScreen />
-      <WebsiteFooter />
+      <DeliveryScreen/>
+      <Footer />
     </>
   );
 }
