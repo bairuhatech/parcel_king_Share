@@ -36,3 +36,9 @@ code {
   height: 100%;
   /* object-fit: cover; */
 }
+.formLabel {
+  font-family: "Montserrat-Semibold";
+  font-size: 10px;
+  color: #000;
+  padding-left: 6px;
+}

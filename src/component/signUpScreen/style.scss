@@ -1,0 +1,67 @@
+@use "../../config/variable.scss" as vars;
+.signUpScreen-Box1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 38px;
+}
+.signUpScreen-Box2 {
+  width: 40%;
+  background-color: vars.$Primary-Color2;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 26px;
+  @media only screen and (max-width: 576px) {
+    width: 95%;
+  }
+}
+.signUpScreen-Box3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signUpScreen-Box5 {
+  width: 80%;
+  height: 100%;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.signUpScreen-Box4 {
+  width: 100%;
+  height: 120px;
+}
+.signUpScreen-Img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.signUpScreen-Txt1 {
+  font-family: vars.$Montserrat-Medium;
+  font-size: 12px;
+  color: #000;
+  text-align: end;
+}
+.signUpScreen-Box6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.signUpScreen-Bttn {
+  width: 140px;
+  height: 36px;
+  background-color: vars.$Primary-Color;
+  font-family: vars.$Montserrat-Bold;
+  font-size: 12px;
+  color: white;
+  &:hover {
+    color: white !important;
+    border: white !important;
+  }
+}

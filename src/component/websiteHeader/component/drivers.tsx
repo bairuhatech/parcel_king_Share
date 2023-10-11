@@ -1,40 +1,50 @@
 import React from "react";
 import "./styles.scss";
-function HeaderBusiness() {
+function HeaderDrivers() {
   const data = [
     {
       id: "1",
-      title: "Last Mile Delivered",
+      title: "Sign Up To Drive",
       route: "",
     },
     {
       id: "2",
-      title: "Middle Mile Delivered",
+      title: "Benefits",
       route: "",
     },
     {
       id: "3",
-      title: "LTL Shipping",
+      title: "Reviews",
       route: "",
     },
     {
       id: "4",
-      title: "Hot Shot Delivery",
+      title: "My Account",
       route: "",
     },
     {
       id: "5",
-      title: "Pricing and Booking",
+      title: "Get More Works",
       route: "",
     },
     {
       id: "6",
-      title: "Industries",
+      title: "Vehicle Recuirements",
       route: "",
     },
     {
       id: "7",
-      title: "Locations",
+      title: "Fleet Owners",
+      route: "",
+    },
+    {
+      id: "8",
+      title: "Resource Center",
+      route: "",
+    },
+    {
+      id: "9",
+      title: "Frequently Ask Questions",
       route: "",
     },
   ];
@@ -61,4 +71,4 @@ function HeaderBusiness() {
   );
 }
 
-export default HeaderBusiness;
+export default HeaderDrivers;

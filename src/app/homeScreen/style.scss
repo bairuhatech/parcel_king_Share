@@ -2,8 +2,6 @@
 /////////////////////////////////////////////
 .block-Txt1 {
   width: 100%;
-  // height: 40px;
-  //   background-color: white;
   padding: 20px;
   font-family: vars.$Montserrat-ExtraBold;
   font-size: 42px;
@@ -43,7 +41,6 @@
 .homeScreen-Box5 {
   height: 200px;
   width: 90%;
-  // background-color: red;
 }
 .homeScreen-Box6 {
   display: flex;
@@ -51,7 +48,7 @@
 }
 .homeScreen-Txt1 {
   font-family: vars.$Montserrat-ExtraBold;
-  font-size: 48px;
+  font-size: 58px;
   color: white;
   opacity: 0.8;
   @media only screen and (max-width: 576px) {
@@ -122,13 +119,14 @@
 }
 .block3-Box8 {
   width: 100%;
-  height: 200px;
+  height: 258px;
   border-radius: 6px;
 }
 .block3-Img {
   width: 100%;
   height: 100%;
   border-radius: 6px;
+  object-fit: contain;
 }
 .block3-Txt1 {
   font-family: vars.$Montserrat-SemiBold;
@@ -147,20 +145,20 @@
   width: 100%;
   height: 100%;
   background-color: rgb(0 0 0 / 2%);
-  // padding: 20px;
 }
 .block4-Box2 {
   width: 100%;
   height: 100%;
-  padding: 0px 40px 30px 40px;
-  // background-color: yellow;
+  padding: 0px 77px 30px 100px;
   display: flex;
   flex-wrap: wrap;
+  @media only screen and (max-width: 576px) {
+    padding: 16px;
+  }
 }
 .block4-Box3 {
   width: 50%;
   height: 100%;
-  // background-color: red;
   padding: 28px;
   @media only screen and (max-width: 576px) {
     width: 100%;
@@ -171,10 +169,8 @@
   width: 100%;
   height: 100%;
   display: flex;
-  // background-color: skyblue;
 }
 .block4-Box6 {
-  // width: 120px;
   padding-left: 40px;
 }
 .block4-Txt1 {
@@ -188,173 +184,18 @@
   color: #000;
   padding-top: 10px;
 }
-// .block4-Box3 {
-//   width: 100%;
-//   height: 100%;
-//   background-color: rgb(255, 0, 0);
-//   padding: 20px;
-// }
-// .block4-Box4 {
-//   width: 50%;
-//   height: 100%;
-//   background-color: rgb(255, 255, 255);
-// }
-// .block4-Box3 {
-//   width: 100%;
-//   height: 100%;
-//   background-color: red;
-//   padding: 20px;
-//   display: flex;
-//   flex-wrap: nowrap;
-// }
-// .block4-Box4 {
-//   width: 50%;
-//   height: 100px;
-//   // display: flex;
-//   // align-items: center;
-//   background-color: white;
-// }
-
-// .block4-Box6 {
-// }
-// .homeScreen-Box4 {
-//   width: 68%;
-//   height: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: flex-start;
-//   @media only screen and (max-width: 576px) {
-//     // width: 100%;
-//     display: none;
-//   }
-// }
-// .homeScreen-Box5 {
-//   width: 100%;
-//   background-color: white;
-//   border-radius: 6px;
-// }
-// .homeScreen-Box6 {
-//   width: 100%;
-//   height: 100%;
-//   border-radius: 6px 6px 0px 0px;
-// }
-// .homeScreen-Box7 {
-//   width: 100%;
-//   border-radius: 6px 6px 0px 0px;
-//   display: flex;
-// }
-// .homeScreen-Box8 {
-//   width: 100%;
-//   background-color: rgba(0, 0, 0, 0.25);
-//   border-radius: 6px 0px 0px 0px;
-//   text-align: center;
-//   padding: 12px;
-//   font-family: vars.$Montserrat-Medium;
-//   color: white;
-//   font-size: 18px;
-// }
-// .homeScreen-Box9 {
-//   width: 100%;
-//   background-color: #ff0a0a;
-//   border-radius: 0px 6px 0px 0px;
-//   text-align: center;
-//   padding: 12px;
-//   font-family: vars.$Montserrat-Medium;
-//   color: white;
-//   font-size: 18px;
-// }
-// .homeScreen-Box10 {
-//   width: 100%;
-//   border-radius: 0px 0px 6px 6px;
-//   padding: 16px;
-// }
-// .homeScreen-Box11 {
-//   display: flex;
-//   width: 100%;
-// }
-// .homeScreen-Box12 {
-//   width: 100%;
-//   text-align: center;
-//   padding: 6px;
-//   font-family: vars.$Montserrat-Bold;
-//   color: white;
-//   font-size: 16px;
-//   // height: 70px;
-// }
-// .homeScreen-Box13 {
-//   width: 100%;
-//   text-align: center;
-//   padding: 6px;
-//   font-family: vars.$Montserrat-Bold;
-//   color: white;
-//   font-size: 16px;
-// }
-// .homeScreen-input {
-//   height: 100%;
-// }
-// .homeScreen-input::placeholder {
-//   font-family: vars.$Montserrat-Bold;
-//   font-weight: bolder !important;
-//   font-size: 16px;
-// }
-// .homeScreen-Bttn1 {
-//   width: 100%;
-//   height: 100%;
-//   background-color: green;
-//   font-family: vars.$Montserrat-SemiBold;
-//   font-size: 14px;
-//   color: white;
-// }
-// .homeScreen-Box14 {
-//   margin-top: 20px;
-//   width: 100%;
-//   background-color: white;
-//   border-radius: 6px;
-//   display: flex;
-// }
-
-// .homeScreen-SearchInput input {
-//   font-size: 14px !important;
-//   font-family: vars.$Montserrat-Medium;
-//   height: 40px !important;
-// }
-
-// .homeScreen-SearchInput button {
-//   font-size: 20px !important;
-//   font-family: vars.$Montserrat-Medium;
-//   height: 50px !important;
-//   background-color: green;
-// }
-
-// .homeScreen-BookBttn {
-//   width: 200px;
-//   background-color: #ff0a0a;
-//   border: none;
-//   font-family: vars.$Montserrat-Bold;
-//   color: white;
-//   font-size: 14px;
-//   height: 40px;
-//   &:hover {
-//     color: white !important;
-//   }
-// }
-
 
 ////////////////////////------------------BLOCK--2---------------///////////////////////////////
 
-
-
-.StartOfDelivery{
+.StartOfDelivery {
   width: 100%;
-  // height: 100vh;
   background-color: #fff;
   @media screen and (min-width: 950px) {
     height: 100vh;
     padding: 50px;
   }
 }
-.headerOfDelivery{
+.headerOfDelivery {
   height: 20%;
   font-family: vars.$Montserrat-ExtraBold;
   font-size: 50px;
@@ -364,7 +205,7 @@
   color: vars.$Primary-Color;
   text-align: center;
 }
-.secondBigText{
+.secondBigText {
   height: 30%;
   font-family: vars.$Montserrat-Medium;
   font-size: 16.5px;
@@ -373,46 +214,46 @@
   justify-content: center;
   text-align: center;
 }
-.cardsDiv{
+.cardsDiv {
   width: 100%;
   height: 40%;
   display: flex;
   justify-content: space-around;
 }
-.Vehiclecol{
+.Vehiclecol {
   height: fit-content;
   background-color: vars.$Primary-Color;
   border-radius: 8px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
   @media screen and (max-width: 950px) {
-  margin-top: 20px;
+    margin-top: 20px;
   }
-  @media screen and (min-width:950px) {
+  @media screen and (min-width: 950px) {
     height: 100%;
   }
 }
-.Vehiclecol:hover{
+.Vehiclecol:hover {
   background-color: #f1f1f1;
 }
-.vehicleImage{
-height: 50%;
-display: grid;
-place-items: center;
+.vehicleImage {
+  height: 50%;
+  display: grid;
+  place-items: center;
 }
-.imageSize{
+.imageSize {
   width: 90%;
   height: 90%;
 }
-.ImageHeader{
+.ImageHeader {
   width: 100%;
   height: 10%;
-  font-family:vars.$Montserrat-Bold;
+  font-family: vars.$Montserrat-Bold;
   font-size: 15px;
   display: grid;
   place-items: center;
 }
-.Maintext{
+.Maintext {
   width: 100%;
   font-size: 13.5px;
   height: 40%;
@@ -423,28 +264,26 @@ place-items: center;
   padding: 10px;
 }
 
-
-
 ////////////////// Block 5 ///////////////
 
-.MainBlock5{
+.MainBlock5 {
   width: 100%;
   height: 100vh;
   background-color: #f1f1f1;
 }
-.Block5-firstPoint{
+.Block5-firstPoint {
   height: 29%;
   background-color: red;
 }
-.Block5-secondPoint{
+.Block5-secondPoint {
   height: 29%;
   background-color: green;
 }
-.Block5-thirdPoint{
+.Block5-thirdPoint {
   height: 29%;
   background-color: yellow;
 }
-.Block5-Header{
+.Block5-Header {
   height: 13%;
   background-color: aqua;
   font-family: vars.$Montserrat-ExtraBold;
