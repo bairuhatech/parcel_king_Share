@@ -38,30 +38,28 @@ function Block2() {
         We Make Delivery Quick And Easy
       </Col>
       <Col md={24} className="secondBigText">
-        GoShare connects you with background checked delivery professionals on
-        demand for help with last mile delivery, middle mile logistics and
-        moving services. From<br/> pallets to furniture and parcels, if you need
+        <div className="secondBigTextDiv">
+        ParcelKing connects you with background checked delivery professionals
+        on demand for help with last mile delivery, middle mile logistics and
+        moving services. From pallets to furniture and parcels, if you need
         something delivered or moved, we’ve got you covered. Our nationwide
-        network of more than 20,000 box trucks, cargo vans,<br/> pickup trucks and
+        network of more than 20,000 box trucks, cargo vans, pickup trucks and
         sedans are available to help you the same day or you can schedule in
-        advance. Get a free estimate before you book on our website or by<br/>
+        advance. Get a free estimate before you book on our website or by
         downloading our highly rated mobile apps on iPhone and Android. Business
-        customers can integrate GoShare using our Delivery API.
+        customers can integrate ParcelKing using our Delivery API.
+        </div>
       </Col>
       <Row className="cardsDiv">
-        {data.map((item, index)=>(
-      <Col md={5} sm={10} xs={20} className="Vehiclecol" key={index}>
-        <div className="vehicleImage">
-          <img src={item?.image} className="imageSize"/>
-        </div>
-        <div className="ImageHeader">
-            {item?.title}
-        </div>
-        <div className="Maintext">
-          {item?.description}
-        </div>
-      </Col>
-      ))}
+        {data.map((item, index) => (
+          <Col md={5} sm={10} xs={20} className="Vehiclecol" key={index}>
+            <div className="vehicleImage">
+              <img src={item?.image} className="imageSize" />
+            </div>
+            <div className="ImageHeader">{item?.title}</div>
+            <div className="Maintext">{item?.description}</div>
+          </Col>
+        ))}
       </Row>
     </Row>
   );
