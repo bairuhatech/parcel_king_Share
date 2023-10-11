@@ -191,14 +191,14 @@
   width: 100%;
   background-color: #fff;
   @media screen and (min-width: 950px) {
-    height: 100vh;
+    height: 100%;
     padding: 50px;
   }
 }
 .headerOfDelivery {
   height: 20%;
   font-family: vars.$Montserrat-ExtraBold;
-  font-size: 50px;
+  font-size: 42px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,6 +207,8 @@
 }
 .secondBigText {
   height: 30%;
+}
+.secondBigTextDiv {
   font-family: vars.$Montserrat-Medium;
   font-size: 16.5px;
   padding: 20px;
@@ -221,25 +223,21 @@
   justify-content: space-around;
 }
 .Vehiclecol {
-  height: fit-content;
-  background-color: vars.$Primary-Color;
+  height: 240px;
+  padding: 20px;
   border-radius: 8px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
+  // box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  // box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;;
   @media screen and (max-width: 950px) {
     margin-top: 20px;
   }
-  @media screen and (min-width: 950px) {
-    height: 100%;
+  @media screen and (max-width: 560px) {
+    padding: 10px;
   }
-}
-.Vehiclecol:hover {
-  background-color: #f1f1f1;
 }
 .vehicleImage {
   height: 50%;
-  display: grid;
-  place-items: center;
+  // background-color: red;
 }
 .imageSize {
   width: 90%;
@@ -250,8 +248,8 @@
   height: 10%;
   font-family: vars.$Montserrat-Bold;
   font-size: 15px;
-  display: grid;
-  place-items: center;
+  text-align: center;
+  // background-color: aqua;
 }
 .Maintext {
   width: 100%;
@@ -262,26 +260,16 @@
   justify-content: center;
   text-align: center;
   padding: 10px;
+  // background-color: blue;
 }
 
 ////////////////// Block 5 ///////////////
 
 .MainBlock5 {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background-color: #f1f1f1;
-}
-.Block5-firstPoint {
-  height: 29%;
-  background-color: red;
-}
-.Block5-secondPoint {
-  height: 29%;
-  background-color: green;
-}
-.Block5-thirdPoint {
-  height: 29%;
-  background-color: yellow;
+  padding: 50px;
 }
 .Block5-Header {
   height: 13%;
@@ -293,4 +281,8 @@
   align-items: end;
   color: vars.$Primary-Color;
   text-align: center;
+}
+.firstStep-Block5 {
+  height: 90%;
+  background-color: rgb(27, 29, 136);
 }
