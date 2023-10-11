@@ -4,12 +4,13 @@ import { Row, Col } from "react-bootstrap";
 import Logo from "../../asset/image/logo.png";
 import { Button, Drawer, Popover } from "antd";
 import { HiOutlineMenu } from "react-icons/hi";
+import WebsiteHeaderBusiness from "./component/bussiness";
 
 function WebsiteHeader() {
   const [open, setOpen] = useState(false);
 
   const content = (
-    <div style={{ width: 100 }}>
+    <div style={{ width: 500 }}>
       <p>Content</p>
       <p>Content</p>
     </div>
@@ -26,30 +27,38 @@ function WebsiteHeader() {
           <Col md={7} xs={6}>
             <div className="websiteHeader-Box3">
               <div>
-                <Popover content={content}>
+                <Popover content={<WebsiteHeaderBusiness />} trigger={"click"}>
                   <span className="websiteHeader-Txt">Business</span>
                 </Popover>
               </div>
               <div>
-                <Popover content={content}>
+                <Popover
+                  content={content}
+                  trigger={"click"}
+                  placement="bottomRight"
+                >
                   <span className="websiteHeader-Txt">Individuals</span>
                 </Popover>
               </div>
               <div>
-                <Popover content={content}>
-                  <span className="websiteHeader-Txt">drivers</span>
+                <Popover
+                  content={content}
+                  trigger={"click"}
+                  placement="bottomRight"
+                >
+                  <span className="websiteHeader-Txt">Drivers</span>
                 </Popover>
               </div>
               <div>
-                <Popover content={content}>
+                <Popover
+                  content={content}
+                  trigger={"click"}
+                  placement="bottomRight"
+                >
                   <span className="websiteHeader-Txt">More</span>
                 </Popover>
               </div>
-              <div>
-                <Popover content={content}>
-                  <span className="websiteHeader-Txt">SignIn</span>
-                </Popover>
-              </div>
+              <div className="websiteHeader-Txt">SignIn</div>
               <div>
                 <Button>Login</Button>
               </div>

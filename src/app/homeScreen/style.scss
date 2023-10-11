@@ -4,8 +4,9 @@
   width: 100%;
   // height: 40px;
   //   background-color: white;
+  padding: 20px;
   font-family: vars.$Montserrat-ExtraBold;
-  font-size: 38px;
+  font-size: 42px;
   text-align: center;
   color: vars.$Primary-Color;
 }
@@ -100,7 +101,6 @@
 .block3-Box5 {
   width: 100%;
   height: 100%;
-  // background-color: grey;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -108,7 +108,6 @@
 .block3-Box6 {
   width: 30%;
   min-height: 360px;
-  // background-color: black;
   padding: 16px;
   @media only screen and (max-width: 576px) {
     width: 100%;
@@ -124,7 +123,6 @@
 .block3-Box8 {
   width: 100%;
   height: 200px;
-  // background-color: orange;
   border-radius: 6px;
 }
 .block3-Img {
@@ -147,17 +145,75 @@
 ////////////////////////////////------BLOCK-4--------///////////////////////////////////
 .block4-Box1 {
   width: 100%;
-  height: 100vh;
-  background-color: red;
-  padding: 20px;
+  height: 100%;
+  background-color: rgb(0 0 0 / 2%);
+  // padding: 20px;
 }
 .block4-Box2 {
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 0px 40px 30px 40px;
+  // background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
 }
 .block4-Box3 {
+  width: 50%;
+  height: 100%;
+  // background-color: red;
+  padding: 28px;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+    padding: 5px;
+  }
+}
+.block4-Box4 {
   width: 100%;
   height: 100%;
-  background-color: vars.$Primary-Color;
+  display: flex;
+  // background-color: skyblue;
 }
+.block4-Box6 {
+  // width: 120px;
+  padding-left: 40px;
+}
+.block4-Txt1 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 20px;
+  color: #000;
+}
+.block4-Txt2 {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 14px;
+  color: #000;
+  padding-top: 10px;
+}
+// .block4-Box3 {
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgb(255, 0, 0);
+//   padding: 20px;
+// }
+// .block4-Box4 {
+//   width: 50%;
+//   height: 100%;
+//   background-color: rgb(255, 255, 255);
+// }
+// .block4-Box3 {
+//   width: 100%;
+//   height: 100%;
+//   background-color: red;
+//   padding: 20px;
+//   display: flex;
+//   flex-wrap: nowrap;
+// }
+// .block4-Box4 {
+//   width: 50%;
+//   height: 100px;
+//   // display: flex;
+//   // align-items: center;
+//   background-color: white;
+// }
+
+// .block4-Box6 {
+// }
