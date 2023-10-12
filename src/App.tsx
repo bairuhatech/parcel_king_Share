@@ -6,6 +6,7 @@ import Home from "./app/homeScreen/index";
 import SignUpScreen from "./component/signUpScreen";
 import LastMileDelivery from "./app/business/lastMile";
 import MiddleMileDelivery from "./app/business/middleMile";
+import LtlShipment from "./app/business/ltlShipment/Index";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="/signup" element={<SignUpScreen />} />
         <Route path="/lastmiledelivery" element={<LastMileDelivery />} />
         <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
+        <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
+        <Route path="/ltlshipment" element={<LtlShipment />} />
       </Routes>
     </>
   );
