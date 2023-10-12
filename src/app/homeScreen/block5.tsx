@@ -14,7 +14,7 @@ function Block5() {
   {
     gif: secondImage,
     head: "Get Movin’",
-    content: "The GoShare pros will load, secure, transport and unload your items. You just tell them where you want them to put it.",
+    content: "The Parcelking pros will load, secure, transport and unload your items. You just tell them where you want them to put it.",
   },
   {
     gif: thirdImage,
