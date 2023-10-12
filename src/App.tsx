@@ -6,6 +6,7 @@ import Home from "./app/homeScreen/index";
 import SignUpScreen from "./component/signUpScreen";
 import LastMileDelivery from "./app/business/lastMile";
 import BusinessIndustries from "./app/business/indusries";
+import MiddleMileDelivery from "./app/business/middleMile";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/signup" element={<SignUpScreen />} />
         <Route path="/lastmiledelivery" element={<LastMileDelivery />} />
         <Route path="/industries" element={<BusinessIndustries />} />
+        <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
       </Routes>
     </>
   );
