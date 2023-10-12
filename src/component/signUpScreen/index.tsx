@@ -1,14 +1,14 @@
 import React from "react";
 import WebsiteHeader from "../websiteHeader";
 import Footer from "../websiteFooter";
-import "./style.scss";
+import "../styles.scss";
 import Logo from "../../asset/image/logo.png";
 import { Button, Form, Input } from "antd";
 import { TfiEmail } from "react-icons/tfi";
 
 function SignUpScreen() {
   const style = {
-    background: "linear-gradient(#344156, #ffffff)",
+    background: "linear-gradient(208deg, #3d5877 0%, #151e29 100%)",
   };
 
   return (

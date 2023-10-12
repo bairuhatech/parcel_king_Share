@@ -182,6 +182,9 @@
   font-size: 14px;
   color: #000;
   padding-top: 10px;
+  @media only screen and (max-width: 576px) {
+    font-size: 12px;
+  }
 }
 
 ////////////////////////------------------BLOCK--2---------------///////////////////////////////

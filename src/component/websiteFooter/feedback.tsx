@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "./styles.scss";
+import "../styles.scss";
 import { Container } from "react-bootstrap";
 import { AiOutlineMessage } from "react-icons/ai";
 import { IoLocationOutline, IoCallOutline } from "react-icons/io5";
-import { Button, Modal, Rate, Row, Col, } from "antd";
+import { Button, Modal, Rate, Row, Col } from "antd";
 
 const FeedBack = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

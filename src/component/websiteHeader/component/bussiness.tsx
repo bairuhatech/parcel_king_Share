@@ -1,11 +1,13 @@
 import React from "react";
 import "./styles.scss";
+import { useNavigate } from "react-router-dom";
 function HeaderBusiness() {
+  const navigate = useNavigate();
   const data = [
     {
       id: "1",
       title: "Last Mile Delivered",
-      route: "",
+      route: "/lastmiledelivery",
     },
     {
       id: "2",
@@ -40,6 +42,7 @@ function HeaderBusiness() {
   ];
   const handleClik = (val: any) => {
     console.log("----val-----", val);
+    navigate(`${val?.route}`);
   };
   return (
     <>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.scss";
+import "../styles.scss";
 import { Row, Col } from "react-bootstrap";
 import Logo from "../../asset/image/logo.png";
 import { Button, Drawer, Popover } from "antd";
