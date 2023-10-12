@@ -13,7 +13,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { PiYoutubeLogoLight } from "react-icons/pi";
 import { LiaWhatsapp } from "react-icons/lia";
 import Logo from "../../asset/image/logo.png";
-
+import "../styles.scss";
 const Footer = () => {
   return (
     <div className="footer">
@@ -96,7 +96,7 @@ const Footer = () => {
             <span className="copyright-txt">
               COPYRIGHT © 2023 GO SHARE LLC. ALL RIGHTS RESERVED
             </span>
-            <span className="copyright-txt-2" >
+            <span className="copyright-txt-2">
               Terms and conditions Privacy policy & Cookies
             </span>
           </div>
