@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./app/homeScreen/index";
 import SignUpScreen from "./component/signUpScreen";
 import LastMileDelivery from "./app/business/lastMile";
+import MiddleMileDelivery from "./app/business/middleMile";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/signup" element={<SignUpScreen />} />
         <Route path="/lastmiledelivery" element={<LastMileDelivery />} />
+        <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
       </Routes>
     </>
   );
