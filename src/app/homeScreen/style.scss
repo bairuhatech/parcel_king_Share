@@ -396,11 +396,13 @@
 }
 .vehicleImage{
 height: 50%;
-// background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .imageSize{
-  width: 90%;
-  height: 90%;
+  width: 220px;
+  height: 100px;
 }
 .ImageHeader{
   width: 100%;
