@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.App {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
 @font-face {
   font-family: "Montserrat-ExtraBold";
   src: url("./asset/fonts/Montserrat-ExtraBold.ttf");
