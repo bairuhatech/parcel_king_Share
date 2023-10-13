@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "../../../component/websiteHeader";
-import Footer from "../../../component/websiteFooter";
-import LastMile from "../../../asset/image/lastMile.jpg";
-import BusinessBlock1 from "../component/business-Block1";
-import BusinessBlock2 from "../component/business-Block2";
-import BusinessBlock2Image from "../../../asset/image/lastmile2.jpg";
-import Block3 from "../../homeScreen/block3";
-import BusinessBlock3 from "../component/business-Block3";
-import BusinessBlock4 from "../component/business-Block4";
+import BusinessBlock2Image from "../../asset/image/lastmile2.jpg";
+import Header from "../../component/websiteHeader";
+import SectionBlock1 from "../../component/section-Block1";
+import LastMile from "../../asset/image/lastMile.jpg";
+import SectionBlock2 from "../../component/section-Block2";
+import SectionBlock3 from "../../component/section-Block3";
+import Block3 from "../homeScreen/block3";
+import SectionBlock4 from "../../component/section-Block4";
+import Footer from "../../component/websiteFooter";
 
 function LastMileDelivery(props: any) {
   const style = {
@@ -16,13 +16,13 @@ function LastMileDelivery(props: any) {
   return (
     <div>
       <Header bgColor={style.background} />
-      <BusinessBlock1
+      <SectionBlock1
         Image={LastMile}
         head={"The best last mile delivery service nationwide"}
         title={"Local and long distance last mile deliveries national"}
         ButtonPrimary={"Free Estimate"}
       />
-      <BusinessBlock2
+      <SectionBlock2
         Image={BusinessBlock2Image}
         title1={
           "Parcel king connects you with local last mile Delivery Professionals on demand to help your business deliver your products across the US. Help is just minutes away with Parcel king’s same day and scheduled last mile delivery service. With Parcel Kings, you can deliver your products the same day nation wide with our unique mobile apps, website, or our Delivery API forhigh volume last mile shippers. Our team of last mile delivery experts can handle most of your last mile delivery needs nationwide."
@@ -34,7 +34,7 @@ function LastMileDelivery(props: any) {
           "Our local last mile carrier network includes thousands of Delivery Professionals nationwide who are equipped to handle any and all of your last mile shipping needs. Our last mile Delivery Professionals are experts in delivering anything from pallets to parcels. We have a fleet of vehicles that can handle any size last mile shipment, from box trucks, cargo vans, and pickup trucks to sedans. We have the resources and knowledge to handle any last mile delivery job"
         }
       />
-      <BusinessBlock3
+      <SectionBlock3
         head={"Your Last Mile Delivery Service Partner"}
         title1={
           " We know you need your last mile deliveries to be safe and on time. You need a final mile delivery partner you can trust. We have partnered with thousands of businesses, helping them meet their last mile delivery demand and increase their customer satisfaction. As last mile delivery experts with national coverage, we have a passion for making your last mile deliveries easy, efficient, and fast. We pride ourselves on providing the highest levels of customer service."
@@ -48,7 +48,7 @@ function LastMileDelivery(props: any) {
       />
 
       <Block3 />
-      <BusinessBlock4
+      <SectionBlock4
         head={"Last Mile Delivery Made Easy"}
         title1={
           "Last mile delivery is our business and we’re committed to providing you with tools for easy scheduling, tracking, and payments no matter where your business takes you. At Parcel Kings, we understand the importance of getting last mile deliveries done quickly and conveniently. We allow customers to order in seconds. You will be connected to a vetted last mile delivery professional in minutes. Then our network of last mile delivery professionals will deliver your products the same day. With thousands of box trucks, cargo vans, pickup trucks, and sedans in our nationwide network, we’re able to connect you with the right delivery professionals and vehicle for your last mile delivery needs."
