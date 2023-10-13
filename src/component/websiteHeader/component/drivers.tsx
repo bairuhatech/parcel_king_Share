@@ -1,11 +1,15 @@
 import React from "react";
 import "./styles.scss";
+import { useNavigate } from "react-router-dom";
+
 function HeaderDrivers() {
+  const navigate = useNavigate();
+
   const data = [
     {
       id: "1",
       title: "Sign Up To Drive",
-      route: "",
+      route: "/signUpToDrive",
     },
     {
       id: "2",
@@ -50,6 +54,7 @@ function HeaderDrivers() {
   ];
   const handleClik = (val: any) => {
     console.log("----val-----", val);
+    navigate(`${val?.route}`);
   };
   return (
     <>

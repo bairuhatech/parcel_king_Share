@@ -1,0 +1,76 @@
+@use "../../config/variable.scss" as vars;
+
+// SignUpToDriveBlock1----------------------->>>>>>>>>>>>>>>>>>>>>>>>........
+.SignUpToDrive-Box1 {
+  background-color: vars.$Background-Color;
+  width: 100%;
+  height: 100%;
+}
+.SignUpToDrive-Box2 {
+  // padding: 40px 112px 0px 120px;
+  padding: 46px 70px 40px 70px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+  }
+}
+.SignUpToDrive-Box3 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 46px 20px 0px 20px;
+}
+.signUpToDrive-Box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 16px;
+  color: #9e9e9e;
+}
+.SignUpToDrive-Txt1 {
+  font-family: vars.$Montserrat-Regular;
+  font-size: 20px;
+  color: #2196f3;
+}
+.SignUpToDrive-Txt2 {
+  font-family: vars.$Montserrat-Regular;
+  font-size: 20px;
+  color: lightgray;
+}
+.SignUpToDrive-Txt3 {
+  font-family: vars.$Montserrat-Regular;
+  font-size: 15px;
+}
+.SignUpToDrive-Txt4 {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 20px;
+}
+
+.SignUpToDrive-Img1 {
+  width: 90px;
+  height: 70px;
+}
+
+.SignUpToDrive-Txt5 {
+  padding-bottom: 5px;
+  font-family: vars.$Montserrat-Regular;
+  font-size: 15px;
+}
+.signUpToDrive-Txt6 {
+  color: #2196f3;
+  text-align: center;
+  font-family: vars.$Montserrat-Regular;
+  font-size: 15px;
+}
+.signUpToDrive-Btn1 {
+  background-color: #4caf50;
+  color: white;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 17px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+}
