@@ -27,13 +27,13 @@ function LtlShipment() {
       <BusinessBlock2
         Image={LthShipmentImage2}
         title1={
-          "Optimize your supply chain by accessing GoShare’s same day Less Than Truckload (LTL) delivery services through our API, website or mobile apps. Save time with automated tasks, instantly match with drivers, create pickup requests, get real time visibility, handle exceptions, and collect proof of delivery for your LTL shipments."
+          "Optimize your supply chain by accessing Parcel king’s same day Less Than Truckload (LTL) delivery services through our API, website or mobile apps. Save time with automated tasks, instantly match with drivers, create pickup requests, get real time visibility, handle exceptions, and collect proof of delivery for your LTL shipments."
         }
         title2={
           "Our REST API can be integrated into your transportation management system (TMS), your e-commerce website, a retail Point of Sale (POS) or a Warehouse Management System (WMS) to create seamless LTL delivery experiences. If you don't have IT support for an integration, you can get an LTL price quote in seconds, connect with a driver in minutes, and have your LTL shipment delivered in hours using our website or our highly rated mobile apps for iPhone and Android."
         }
         title3={
-          "You have access to more than 15,000 carriers in GoShare's virtual fleet of box trucks, cargo vans, pickup trucks and sedans. Lift gates, manual unload and assembly services are available as well. Our cloud-based logistics platform has been used by over 100,000 customers to find qualified, background checked and reliable delivery professionals."
+          "You have access to more than 15,000 carriers in Parcel king's virtual fleet of box trucks, cargo vans, pickup trucks and sedans. Lift gates, manual unload and assembly services are available as well. Our cloud-based logistics platform has been used by over 100,000 customers to find qualified, background checked and reliable delivery professionals."
         }
       />
       <Block3 />
