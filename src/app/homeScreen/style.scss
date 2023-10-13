@@ -414,3 +414,101 @@
     border: 1px solid white !important;
   }
 }
+
+////////////////////////Block 7//////////////////////
+
+.Block7-start{
+  width: 100%;
+  // height: 100vh;
+  padding: 50px;
+}
+.FirstCol-Block7{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondCol-Block7 {
+  height: #ff0000;
+  display: flex;
+  align-items: center;
+}
+.content-Block7{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+}
+
+.location-Block7{
+  font-size: 50px;
+  font-family: vars.$Montserrat-ExtraBold ;
+}
+.subText-Block7{
+  font-size: 20px;
+  font-family: vars.$Montserrat-Bold;
+}
+.button-Block7{
+  width: 200px;
+  height: 40px;
+  background-color: vars.$Primary-Color;
+  font-family: vars.$Montserrat-Bold;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  color: vars.$Primary-Color2;
+  &:hover {
+    color: vars.$Primary-Color2 !important;
+    border: 1px solid white !important;
+  }}
+.maps-Block7{
+  width: 100%;
+  height: 500px;
+  background-image: url(../../asset/image/map1.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+//////////////////Block 8////////////////
+
+.main-Block8{
+  width: 100%;
+}
+.firstCol-Block8{
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondCol-Block8{
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsTitles-Block8{
+  width: 85%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.NewsChannels-Block8{
+  width: 50%;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.newsContaining-Block8{
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.videoDiv-Block8 {
+  height: 500px;
+  width: 85%;
+  background-size: cover;
+  background-position: center;
+}
