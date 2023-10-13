@@ -8,6 +8,7 @@ import BusinessBlock2Image from "../../../asset/image/lastmile2.jpg";
 import Block3 from "../../homeScreen/block3";
 import BusinessBlock3 from "../component/business-Block3";
 import BusinessBlock4 from "../component/business-Block4";
+import DispatchBlog from "../../../component/blog";
 
 function LastMileDelivery(props: any) {
   const style = {
@@ -60,6 +61,7 @@ function LastMileDelivery(props: any) {
           "Parcel Kings is a logistics technology company that facilitates final mile deliveries, middle mile deliveries, LTL shipments, hot shot trucking, and other delivery solutions for businesses nationwide. We are dedicated to delivering happiness in every aspect of our last mile delivery service, from our drivers and customer support team to our proprietary software. Try us and see why our customers say we’re the best last mile delivery service available nationally. Contact us today for more information about how Parcel Kings can help your business grow."
         }
       />
+      <DispatchBlog />
       <Footer />
     </div>
   );

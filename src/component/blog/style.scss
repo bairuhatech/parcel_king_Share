@@ -12,16 +12,18 @@
 .dispatchBlog-Box4 {
   width: 100%;
   font-size: 20px;
+
   text-align: center;
   font-family: "Montserrat-Regular";
 }
 
-.dispatchBlog-Box5 {
-  width: 100%;
-  margin-bottom: 14px;
-  display: flex;
-  justify-content: center;
-}
+// .dispatchBlog-Box5 {
+//   width: 100%;
+//   margin-bottom: 14px;
+//   display: flex;
+//   background-color: azure;
+//   justify-content: center;
+// }
 
 .card-image {
   width: 100%;
@@ -30,8 +32,17 @@
 .dispatchBlog-Box7 {
   text-align: center;
   font-size: 14px;
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat-bold";
 }
 .dispatchBlog-Box6 {
-  width: 330px;
+  padding: 10px;
+}
+.dispatchBlog-Box8 {
+  width: 80%;
+  display: flex;
+  // background: aqua;
+}
+.dispatchBlog-Box9 {
+  display: flex;
+  justify-content: center;
 }
