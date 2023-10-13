@@ -98,7 +98,6 @@
 .driversBlock2-Box7 {
   width: 100%;
   height: 100%;
-  background-color: white;
   border-radius: 6px;
 }
 .driversBlock2-Box8 {
@@ -146,20 +145,23 @@
   color: #fff;
 }
 // block333333333333>>>>>>>>>>>>>>
+//  A word  From Our Drivers--------------------->>>>>>>>>>>>>>>
 .driversBlock3-Box1 {
   padding: 30px;
 }
 .driversBlock3-Box2 {
-  padding: 0px 160px 50px 160px;
-
+  padding: 0px 58px 50px 75px;
   @media only screen and (max-width: 1000px) {
     padding: 0px;
   }
 }
 .driversBlock3-Box4 {
   width: 100%;
-  height: 363px;
+  height: 350px;
   border-radius: 6px;
+  @media only screen and (max-width: 576px) {
+    height: 0px;
+  }
 }
 .driversBlock3-Txt1 {
   width: 100%;
@@ -175,14 +177,13 @@
 .driversBlock3-Img2 {
   width: 100%;
   height: 100%;
-
   object-fit: contain;
   margin-bottom: 5px;
 }
 .driversBlock3-Img1 {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  // object-fit: contain;
 }
 .driversBlock3-Txt2 {
   font-family: vars.$Montserrat-ExtraBold;
@@ -212,13 +213,73 @@
     justify-content: center;
   }
 }
-.driversBlock3-Box5 {
-  // @media only screen and (max-width: 768px) {
-  //   width: 300px;
-  // }
+// Why Joined ParcelKing------------------------------>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.whyJoinParcelKing-Box1 {
+  padding: 30px;
 }
-// .driversBlock3-Img {
-//   width: 100%;
-//   height: 100%;
-//   object-fit: contain;
-// }
+.whyJoinParcelKing-Box5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.whyJoinParcelKing-Box6 {
+  width: 30%;
+  min-height: 230px;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.whyJoinParcelKing-Box7 {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.whyJoinParcelKing-Box8 {
+  width: 100%;
+  height: 80px;
+  border-radius: 6px;
+}
+.whyJoinParcelKing-Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: contain;
+}
+.whyJoinParcelKing-Txt1 {
+  width: 100%;
+  font-family: vars.$Montserrat-ExtraBold;
+  font-size: 42px;
+  text-align: center;
+  color: #707070;
+  padding: 0px 0px 25px 0px;
+}
+.whyJoinParcelKing-Txt2 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 24px;
+  color: #707070;
+  text-align: center;
+  padding-top: 10px;
+}
+.whyJoinParcelKing-Txt3 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+  padding-top: 10px;
+}
+.whyJoinParcelKing-Box9 {
+  display: flex;
+  justify-content: center;
+}
+.whyJoinParcelKing-Btn1 {
+  width: 300px;
+  height: 50px;
+  background-color: vars.$Primary-Color;
+  border: none;
+  border-radius: 4px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 15px;
+  color: #fff;
+}

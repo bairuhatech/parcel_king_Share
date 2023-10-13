@@ -3,7 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./app/homeScreen/index";
 import SignUpScreen from "./component/signUpScreen";
-import SignUpToDrive from "./app/drivers/signUpToDrive/intex";
+import SignUpToDrive from "./app/drivers/signUpToDrive";
 import LernMoreDrivers from "./app/drivers/lernMore";
 import HotshotDelivery from "./app/business/hotShot";
 import PricingAndBooking from "./app/business/pricingAndBooking";
