@@ -15,6 +15,9 @@ function MiddleMileDelivery() {
   return (
     <>
       <Header bgColor={style.background} />
+      <br />
+      <br />
+      <br />
       <SectionBlock1
         Image={MiddleMilesImage1}
         head={"The best middle mile delivery service nationwide"}

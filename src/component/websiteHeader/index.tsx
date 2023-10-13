@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles.scss";
 import { Row, Col } from "react-bootstrap";
 import Logo from "../../asset/image/logo.png";
-import { Button, Drawer, Popover } from "antd";
+import { Button, Drawer, Popover, Select } from "antd";
 import { HiOutlineMenu } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
 import HeaderBusiness from "./component/bussiness";
@@ -74,10 +74,19 @@ function Header(props: any) {
               />
             </div>
             <Drawer
-              placement="left"
+              placement="right"
               onClose={() => setOpen(false)}
               open={open}
-            ></Drawer>
+            >
+              <div className="header-Drawer-Box1">
+                <div className="header-Drawer-Box2">
+                  {/* <Select defaultValue={"Business"}></Select> */}
+                  <Popover content={<HeaderBusiness />}>
+                    <span className="header-Drawer-Txt">Business</span>
+                  </Popover>
+                </div>
+              </div>
+            </Drawer>
           </Col>
         </Row>
       </div>

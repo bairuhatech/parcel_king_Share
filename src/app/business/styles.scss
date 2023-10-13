@@ -1,2 +1,80 @@
 @use "../../config/variable.scss" as vars;
 ///////////////////////////////////////////////////////////////////////////////////
+.PricingAndBookingForm-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.PricingAndBookingForm-Box2 {
+  width: 50%;
+  height: 100%;
+  //   background-color: red;
+  @media only screen and (max-width: 576px) {
+    width: 90%;
+  }
+}
+.PricingAndBookingForm-Txt1 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 28px;
+  text-align: center;
+}
+.PricingAndBookingForm-bttn1 {
+  width: 100%;
+  height: 40px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 12px;
+  color: white;
+  background-color: vars.$Primary-Color3;
+  &:hover {
+    color: vars.$Primary-Color2 !important;
+  }
+}
+.PricingAndBookingForm-bttn2 {
+  width: 100%;
+  height: 40px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 12px;
+  color: white;
+  background-color: vars.$Primary-Color;
+  &:hover {
+    color: vars.$Primary-Color2 !important;
+  }
+}
+///////////////////////////////--------------LOCATION-SITES---------------////////////////////////
+.LocationSites-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.LocationSites-Box2 {
+  width: 80%;
+  height: 100%;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.LocationSites-Box3 {
+  width: 100%;
+  height: 200px;
+  padding: 16px;
+  position: relative;
+}
+.LocationSites-Box4 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.LocationSites-Txt1 {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}

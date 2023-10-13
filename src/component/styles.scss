@@ -8,7 +8,7 @@
   margin-top: 38px;
 }
 .signUpScreen-Box2 {
-  width: 40%;
+  max-width: 606px;
   background-color: vars.$Primary-Color2;
   border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -261,12 +261,25 @@
     border: 1px solid white !important;
   }
 }
+.header-Drawer-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-Drawer-Txt {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 26px;
+  color: vars.$Primary-Color3;
+  text-align: center;
+  width: 100%;
+}
 /////////////////////////////////////----------SECTION-BLOCK1----------/////////////////////////////////////////////
 .SectionBlock1-Box1 {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  margin-top: 38px;
+  // margin-top: 38px;
 }
 .SectionBlock1-Box2 {
   position: absolute;
@@ -279,6 +292,9 @@
   flex-direction: column;
   //   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
 }
 .SectionBlock1-Txt1 {
   font-family: vars.$Montserrat-ExtraBold;
@@ -381,4 +397,33 @@
   padding-top: 16px;
   text-align: center;
   color: vars.$Primary-Color3;
+}
+//////////////////////////////--------LOCATION-SECTION----------//////////////////////////////
+.location-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.location-Box2 {
+  width: 80%;
+  height: 100%;
+  // background-color: red;
+}
+.location-Box3 {
+  width: 100%;
+  height: 500px;
+  @media only screen and (max-width: 576px) {
+    height: 184px;
+  }
+}
+.location-Box4 {
+  width: 100%;
+  text-align: center;
+}
+.location-Txt1 {
+  font-family: vars.$Montserrat-Medium;
+  font-size: 14px;
+  color: vars.$Primary-Color3;
+  text-align: center;
 }

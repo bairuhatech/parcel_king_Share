@@ -4,13 +4,12 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./app/homeScreen/index";
 import SignUpScreen from "./component/signUpScreen";
-
 import HotshotDelivery from "./app/business/hotShot";
 import PricingAndBooking from "./app/business/pricingAndBooking";
-import DeliveryLocation from "./app/business/DeliveryLocation";
-import LastMileDelivery from "./app/business/DeliveryLocation";
 import MiddleMileDelivery from "./app/business/middlemileDelivery";
 import LtlShipment from "./app/business/itlShipment.tsx";
+import LastMileDelivery from "./app/business/lastmileDelivered";
+import DeliveryLocation from "./app/business/location";
 
 function App() {
   return (
