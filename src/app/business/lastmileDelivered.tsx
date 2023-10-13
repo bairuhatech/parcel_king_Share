@@ -9,7 +9,7 @@ import Block3 from "../homeScreen/block3";
 import SectionBlock4 from "../../component/section-Block4";
 import Footer from "../../component/websiteFooter";
 
-function LastMileDelivery(props: any) {
+function LastMileDelivered(props: any) {
   const style = {
     background: "linear-gradient(208deg, #3d5877 0%, #151e29 100%)",
   };
@@ -65,4 +65,4 @@ function LastMileDelivery(props: any) {
   );
 }
 
-export default LastMileDelivery;
+export default LastMileDelivered;

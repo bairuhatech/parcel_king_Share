@@ -8,9 +8,9 @@ import SignUpScreen from "./component/signUpScreen";
 import HotshotDelivery from "./app/business/hotShot";
 import PricingAndBooking from "./app/business/pricingAndBooking";
 import DeliveryLocation from "./app/business/DeliveryLocation";
-import LastMileDelivery from "./app/business/DeliveryLocation";
 import MiddleMileDelivery from "./app/business/middlemileDelivery";
 import LtlShipment from "./app/business/itlShipment.tsx";
+import LastMileDelivered from "./app/business/lastmileDelivered";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="/signup" element={<SignUpScreen />} />
-        <Route path="/lastmiledelivery" element={<LastMileDelivery />} />
+        <Route path="/lastmiledelivery" element={<LastMileDelivered />} />
         <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
         <Route path="/ltlshipment" element={<LtlShipment />} />
         <Route path="/hotShotdelivery" element={<HotshotDelivery />} />
