@@ -1,7 +1,7 @@
 import React from "react";
 
 function MiddleMileDelivery() {
-  return <div>MiddleMileDelivery</div>;
+  return <div></div>;
 }
 
 export default MiddleMileDelivery;
