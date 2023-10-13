@@ -6,6 +6,7 @@ import Block3 from "./block3";
 import Block4 from "./block4";
 import Block2 from "./block2";
 import Block5 from "./block5";
+import Block6 from "./block6";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Block3 />
       <Block4 />
       <Block5/>
+      <Block6/>
       <WebsiteFooter />
     </>
   );
