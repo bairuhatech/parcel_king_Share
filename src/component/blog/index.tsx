@@ -50,29 +50,27 @@ function DispatchBlog() {
           Follow Our Blog for Helpful Articles on How to succeed With Go Share{" "}
         </div>
         <br />
-        <Container>
-          <div className="dispatchBlog-Box9">
-            <div className="dispatchBlog-Box8">
-              <Row>
-                {data.map((item) => (
-                  <Col md={6}>
-                    <div className="dispatchBlog-Box5">
-                      <div className="dispatchBlog-Box6">
-                        <img src={item.img} className="card-image" />
+        <div className="dispatchBlog-Box9">
+          <div className="dispatchBlog-Box8">
+            <Row>
+              {data.map((item) => (
+                <Col md={6}>
+                  <div className="dispatchBlog-Box5">
+                    <div className="dispatchBlog-Box6">
+                      <img src={item.img} className="card-image" />
 
-                        <div className="dispatchBlog-Box7">
-                          {" "}
-                          <br />
-                          {item.text}
-                        </div>
+                      <div className="dispatchBlog-Box7">
+                        {" "}
+                        <br />
+                        {item.text}
                       </div>
                     </div>
-                  </Col>
-                ))}
-              </Row>
-            </div>
+                  </div>
+                </Col>
+              ))}
+            </Row>
           </div>
-        </Container>
+        </div>
       </div>
     </div>
   );
