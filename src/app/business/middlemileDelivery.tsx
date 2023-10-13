@@ -1,11 +1,12 @@
 import React from "react";
-import Header from "../../../component/websiteHeader";
-import BusinessBlock1 from "../component/business-Block1";
-import MiddleMilesImage1 from "../../../asset/image/middlemile1.jpg";
-import MiddleMilesImage2 from "../../../asset/image/middlemile2.jpg";
-import BusinessBlock2 from "../component/business-Block2";
-import Block3 from "../../homeScreen/block3";
-import BusinessBlock3 from "../component/business-Block3";
+
+import MiddleMilesImage1 from "../../asset/image/middlemile1.jpg";
+import MiddleMilesImage2 from "../../asset/image/middlemile2.jpg";
+import Header from "../../component/websiteHeader";
+import SectionBlock1 from "../../component/section-Block1";
+import SectionBlock2 from "../../component/section-Block2";
+import Block3 from "../homeScreen/block3";
+import SectionBlock3 from "../../component/section-Block3";
 
 function MiddleMileDelivery() {
   const style = {
@@ -14,13 +15,13 @@ function MiddleMileDelivery() {
   return (
     <>
       <Header bgColor={style.background} />
-      <BusinessBlock1
+      <SectionBlock1
         Image={MiddleMilesImage1}
         head={"The best middle mile delivery service nationwide"}
         title={"Local and long distance middle mile delivery on demand"}
         ButtonPrimary={"Free Estimate"}
       />
-      <BusinessBlock2
+      <SectionBlock2
         Image={MiddleMilesImage2}
         title1={
           "parcel King connects you with local middle mile Delivery Professionals on demand to help you deliver anything from big and bulky items to small parcels nationwide. Help is just minutes away with parcel King’s same day and scheduled middle mile delivery service. With parcel King, you can deliver your products the same day nationwide with our unique mobile apps, website, or our Delivery API for high volume middle mile shippers. Our team of middle mile delivery experts can handle most of your middle mile delivery needs nationwide."
@@ -31,7 +32,7 @@ function MiddleMileDelivery() {
         title3={""}
       />
       <Block3 />
-      <BusinessBlock3
+      <SectionBlock3
         head={"Your Middle Mile Delivery Service Partner"}
         title={
           "We know you need your middle mile deliveries to be safe and on time. You need a middle mile delivery partner you can trust. With parcel King you no longer have to rely on traditional middle mile delivery services that are slow and unreliable. Instead you can schedule a parcel King delivery professional who can deliver your products the same day. parcel King’s modern middle mile delivery solution helps you schedule middle mile deliveries that are quick, convenient, and affordable."
