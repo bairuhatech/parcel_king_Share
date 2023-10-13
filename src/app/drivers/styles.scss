@@ -1,0 +1,224 @@
+@use "../../config/variable.scss" as vars;
+
+// SignUpToDriveBlock1----------------------->>>>>>>>>>>>>>>>>>>>>>>>........
+.SignUpToDrive-Box1 {
+  background-color: vars.$Background-Color;
+  width: 100%;
+  height: 100%;
+}
+.SignUpToDrive-Box2 {
+  // padding: 40px 112px 0px 120px;
+  padding: 46px 70px 40px 70px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+  }
+}
+.SignUpToDrive-Box3 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 46px 20px 0px 20px;
+}
+.signUpToDrive-Box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 16px;
+  color: #9e9e9e;
+}
+.SignUpToDrive-Txt1 {
+  font-family: vars.$Montserrat-Regular;
+  font-size: 20px;
+  color: vars.$Primary-Color;
+}
+.SignUpToDrive-Txt2 {
+  font-family: vars.$Montserrat-Regular;
+  font-size: 20px;
+  color: lightgray;
+}
+.SignUpToDrive-Txt3 {
+  font-family: vars.$Montserrat-Regular;
+  font-size: 15px;
+}
+.SignUpToDrive-Txt4 {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 20px;
+}
+
+.SignUpToDrive-Img1 {
+  width: 90px;
+  height: 70px;
+}
+
+.SignUpToDrive-Txt5 {
+  padding-bottom: 5px;
+  font-family: vars.$Montserrat-Regular;
+  font-size: 15px;
+}
+.signUpToDrive-Txt6 {
+  color: #2196f3;
+  text-align: center;
+  font-family: vars.$Montserrat-Regular;
+  font-size: 15px;
+}
+.signUpToDrive-Btn1 {
+  background-color: vars.$Primary-Color;
+  color: white;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 17px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+}
+// Learnmore----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// block01-------------
+
+// block-02------------------>>>>>>>>>>>>>>>>>>>>
+.driversBlock2-Box1 {
+  padding: 30px;
+}
+.driversBlock2-Box5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.driversBlock2-Box6 {
+  width: 30%;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.driversBlock2-Box7 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 6px;
+}
+.driversBlock2-Box8 {
+  width: 100%;
+  height: 258px;
+  border-radius: 6px;
+}
+.driversBlock2-Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: contain;
+}
+.driversBlock2-Txt1 {
+  width: 100%;
+  font-family: vars.$Montserrat-ExtraBold;
+  font-size: 42px;
+  text-align: center;
+  color: #707070;
+}
+.driversBlock2-Txt2 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 24px;
+  color: #707070;
+  text-align: center;
+}
+.driversBlock2-Txt3 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.driversBlock2-Box9 {
+  display: flex;
+  justify-content: center;
+}
+.driversBlock2-Btn1 {
+  width: 300px;
+  height: 50px;
+  background-color: vars.$Primary-Color;
+  border: none;
+  border-radius: 4px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 15px;
+  color: #fff;
+}
+// block333333333333>>>>>>>>>>>>>>
+.driversBlock3-Box1 {
+  padding: 30px;
+}
+.driversBlock3-Box2 {
+  padding: 0px 160px 50px 160px;
+
+  @media only screen and (max-width: 1000px) {
+    padding: 0px;
+  }
+}
+.driversBlock3-Box4 {
+  width: 100%;
+  height: 363px;
+  border-radius: 6px;
+}
+.driversBlock3-Txt1 {
+  width: 100%;
+  font-family: vars.$Montserrat-ExtraBold;
+  font-size: 50px;
+  text-align: center;
+  color: #707070;
+  @media only screen and (max-width: 786px) {
+    font-size: 30px;
+  }
+}
+
+.driversBlock3-Img2 {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+.driversBlock3-Img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.driversBlock3-Txt2 {
+  font-family: vars.$Montserrat-ExtraBold;
+  font-size: 30px;
+  color: #707070;
+  @media only screen and (max-width: 786px) {
+    font-size: 15px;
+  }
+}
+.driversBlock3-Txt3 {
+  font-family: vars.$Montserrat-Regular;
+  color: #707070;
+}
+.driversBlock3-Btn1 {
+  width: 300px;
+  height: 50px;
+  background-color: vars.$Primary-Color;
+  font-family: vars.$Montserrat-SemiBold;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.driverBlock3-Boxxx {
+  padding-top: 60px;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.driversBlock3-Box5 {
+  // @media only screen and (max-width: 768px) {
+  //   width: 300px;
+  // }
+}
+// .driversBlock3-Img {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: contain;
+// }
