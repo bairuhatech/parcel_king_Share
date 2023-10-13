@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.App {
+  background-color: rgba(0, 0, 0, 0.02);
+}
 @font-face {
   font-family: "Montserrat-ExtraBold";
   src: url("./asset/fonts/Montserrat-ExtraBold.ttf");
@@ -41,4 +44,12 @@ code {
   font-size: 10px;
   color: #000;
   padding-left: 6px;
+}
+.Business-HeadTxt {
+  width: 100%;
+  /* padding: 20px; */
+  font-family: "Montserrat-ExtraBold";
+  font-size: 42px;
+  text-align: center;
+  color: #ffc400;
 }

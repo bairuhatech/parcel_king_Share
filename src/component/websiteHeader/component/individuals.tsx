@@ -17,12 +17,12 @@ function HeaderIndividuals() {
     {
       id: "3",
       title: "Moving Trucks",
-      route: "",
+      route: "/individualmovingtrack",
     },
     {
       id: "4",
       title: "Retail Delivery",
-      route: "",
+      route: "/individualretaildelivery",
     },
     {
       id: "5",

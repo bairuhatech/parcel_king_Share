@@ -12,7 +12,7 @@ function Block4() {
       icon: <FaRoute color="grey" size={50} />,
       head: "Last Mile Delivery",
       title:
-        "Parcel King partners with local businesses and retailers to provide on-demand last mile delivery. GoShare can also be hired by individuals for store pickups.",
+        "Parcel King partners with local businesses and retailers to provide on-demand last mile delivery. Parcel King can also be hired by individuals for store pickups.",
     },
     {
       icon: <MdOutlineLocalShipping color="grey" size={50} />,
@@ -30,7 +30,7 @@ function Block4() {
       icon: <LuConstruction color="grey" size={50} />,
       head: "Construction and Jobsites",
       title:
-        "Deliver supplies, equipment, building materials, heavy machinery, and more to jobsites with GoShare.",
+        "Deliver supplies, equipment, building materials, heavy machinery, and more to jobsites with Parcel King.",
     },
     {
       icon: <ImOffice color="grey" size={50} />,
