@@ -1,9 +1,9 @@
 import React from "react";
 import { Row, Col } from "antd";
-import truck from "../../asset/image/ShareTruck.png";
-import van from "../../asset/image/shareVan.png";
-import PickupTruck from "../../asset/image/truckSmall.png";
-import car from "../../asset/image/shareCar.png";
+import truck from "../../asset/image/PKTruck.png";
+import van from "../../asset/image/PKVan.png";
+import PickupTruck from "../../asset/image/PKtruckSmall.png";
+import car from "../../asset/image/PKCar.png";
 
 function Block2() {
   const data = [
