@@ -8,6 +8,7 @@ import LastMileDelivery from "./app/business/lastMile";
 import SignUpToDrive from "./app/drivers/signUpToDrive/intex";
 import MiddleMileDelivery from "./app/business/middleMile";
 import LtlShipment from "./app/business/ltlShipment/Index";
+import LernMoreDrivers from "./app/drivers/lernMore";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
         <Route path="/signup" element={<SignUpScreen />} />
         <Route path="/lastmiledelivery" element={<LastMileDelivery />} />
         <Route path="/signUpToDrive" element={<SignUpToDrive />} />
-        <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
+        {/* <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} /> */}
         <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
         <Route path="/ltlshipment" element={<LtlShipment />} />
+        <Route path="/lernMoreDrivers" element={<LernMoreDrivers />} />
       </Routes>
     </>
   );

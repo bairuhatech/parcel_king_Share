@@ -13,41 +13,46 @@ function HeaderDrivers() {
     },
     {
       id: "2",
+      title: "Learn More",
+      route: "/lernMoreDrivers",
+    },
+    {
+      id: "3",
       title: "Benefits",
       route: "",
     },
     {
-      id: "3",
+      id: "4",
       title: "Reviews",
       route: "",
     },
     {
-      id: "4",
+      id: "5",
       title: "My Account",
       route: "",
     },
     {
-      id: "5",
+      id: "6",
       title: "Get More Works",
       route: "",
     },
     {
-      id: "6",
+      id: "7",
       title: "Vehicle Recuirements",
       route: "",
     },
     {
-      id: "7",
+      id: "8",
       title: "Fleet Owners",
       route: "",
     },
     {
-      id: "8",
+      id: "9",
       title: "Resource Center",
       route: "",
     },
     {
-      id: "9",
+      id: "10",
       title: "Frequently Ask Questions",
       route: "",
     },
