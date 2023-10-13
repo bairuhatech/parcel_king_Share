@@ -10,9 +10,12 @@ import SectionBlock3 from "../../../component/section-Block3";
 import Block3 from "../../homeScreen/block3";
 
 function IndividualHelpmoving() {
+  const style = {
+    background: "linear-gradient(208deg, #3d5877 0%, #151e29 100%)",
+  };
   return (
     <> 
-    <Header/>
+    <Header bgColor={style.background}/>
         <SectionBlock1
           Image={LastMile}
           head={"The best help for moving nationwide"}
