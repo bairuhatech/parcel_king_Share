@@ -10,7 +10,7 @@ import slick3 from "../../asset/image/slick3.jpg";
 import slick4 from "../../asset/image/slick4.jpg";
 import slick5 from "../../asset/image/slick5.jpg";
 
-function SecondPage() {
+function Block6() {
   const sliderRef = useRef(null);
   const settings = {
     infinite: true,
@@ -19,7 +19,7 @@ function SecondPage() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,
+    arrows: true,
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -129,11 +129,16 @@ function SecondPage() {
         </div>
       </Col>
       <Col md={24} sm={24} xs={24} className="Block6-buttonCol">
-        <button className="Block6-buttonDiv">View More Colleges</button>
+        <br/>
+        <br/>
+        <button className="Block6-buttonDiv">View More Reviews</button>
+        <br/>
+        <br/>
+        <br/>
       </Col>
     </Row>
   </>
   );
 }
 
-export default SecondPage;
+export default Block6;
