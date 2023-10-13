@@ -9,13 +9,13 @@
   color: #ffc400;
 }
 //////////////////////////////////////////////////////////////////////////////////
-.LastmileBlock1-Box1 {
+.BusinessBlock1-Box1 {
   width: 100%;
   height: 100vh;
   position: relative;
   margin-top: 38px;
 }
-.LastmileBlock1-Box2 {
+.BusinessBlock1-Box2 {
   position: absolute;
   top: 0;
   width: 60%;
@@ -27,22 +27,22 @@
   //   align-items: center;
   justify-content: center;
 }
-.LastmileBlock1-Txt1 {
+.BusinessBlock1-Txt1 {
   font-family: vars.$Montserrat-ExtraBold;
   font-size: 42px;
   color: white;
   opacity: 0.7;
 }
-.LastmileBlock1-Txt2 {
+.BusinessBlock1-Txt2 {
   font-family: vars.$Montserrat-SemiBold;
   font-size: 16px;
   color: vars.$Primary-Color;
   opacity: 0.9;
 }
-.LastmileBlock1-Box3 {
+.BusinessBlock1-Box3 {
   padding-top: 20px;
 }
-.LastmileBlock1-Bttn {
+.BusinessBlock1-Bttn {
   width: 180px;
   height: 42px;
   font-family: vars.$Montserrat-Medium;
@@ -57,7 +57,7 @@
   }
 }
 /////////////////////////////-----LASTMILE-BLOCK2----------------////////////////////
-.LastmileBlock2-Box1 {
+.BusinessBlock2-Box1 {
   width: 100%;
   height: 100%;
   padding: 46px 70px 40px 70px;
@@ -66,7 +66,7 @@
     padding: 10px;
   }
 }
-.LastmileBlock2-Box2 {
+.BusinessBlock2-Box2 {
   width: 100%;
   height: 100%;
   // background-color: red;
@@ -74,7 +74,7 @@
   align-items: center;
   justify-content: center;
 }
-.LastmileBlock2-Box3 {
+.BusinessBlock2-Box3 {
   width: 100%;
   height: 500px;
   // background-color: red;
@@ -83,31 +83,31 @@
     height: 300px;
   }
 }
-.LastmileBlock2-Box4 {
+.BusinessBlock2-Box4 {
   width: 100%;
   height: 100%;
   // background-color: rgb(136, 136, 136);
 }
-.LastmileBlock2-img {
+.BusinessBlock2-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
-.LastmileBlock2-Txt1 {
+.BusinessBlock2-Txt1 {
   font-family: vars.$Montserrat-SemiBold;
   font-size: 12px;
   color: vars.$Primary-Color3;
   padding: 16px;
 }
 //////////////////////////////////////-----LastmileBlock3-Block3------///////////////////////////////////
-.LastmileBlock3-Box1 {
+.BusinessBlock3-Box1 {
   width: 100%;
   height: 100%;
   padding: 46px 70px 60px 70px;
   background-color: #f1f1f1;
 }
-.LastmileBlock3-Txt2 {
+.BusinessBlock3-Txt2 {
   font-family: vars.$Montserrat-SemiBold;
   font-size: 14px;
   padding-top: 16px;
@@ -115,8 +115,16 @@
   color: vars.$Primary-Color3;
 }
 ///////////////////////////////////////-----LASTMILEBLOCK4------////////////////////////////////////
-.lastmile-Block4-Box1 {
+.BusinessBlock4-Box1 {
   width: 100%;
   height: 100%;
   padding: 46px 70px 60px 70px;
+  background-color: #f1f1f1;
+}
+.BusinessBlock4-Txt2 {
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 14px;
+  padding-top: 16px;
+  text-align: center;
+  color: vars.$Primary-Color3;
 }

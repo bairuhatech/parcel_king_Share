@@ -78,7 +78,7 @@
 }
 ////////////////////////------------------BLOCK--2---------------///////////////////////////////
 .block3-Box1 {
-  background-color: vars.$Background-Color;
+  // background-color: vars.$Background-Color;
   padding: 20px;
 }
 .block3-Box3 {
@@ -237,13 +237,13 @@
     padding: 10px;
   }
 }
-.vehicleImage{
-height: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
+.vehicleImage {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.imageSize{
+.imageSize {
   width: 220px;
   height: 100px;
 }
@@ -295,21 +295,21 @@ align-items: center;
   margin-top: 10px;
   // background-color: rgb(27, 29, 136);
 }
-.firstImage{
+.firstImage {
   width: 100%;
   height: 100%;
 }
-.RouteDiv{
+.RouteDiv {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-.Gif1-Block5{
+.Gif1-Block5 {
   width: 100%;
   height: 60%;
 }
-.HeaderCard-Block5{
+.HeaderCard-Block5 {
   width: 100%;
   height: 60px;
   font-family: vars.$Montserrat-Bold;
@@ -318,7 +318,7 @@ align-items: center;
   place-items: center;
   // background-color: #fff;
 }
-.text-Block5{
+.text-Block5 {
   width: 100%;
   height: 25%;
   // background-color: aqua;
