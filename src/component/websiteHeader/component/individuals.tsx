@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.scss";
+import { useNavigate } from "react-router-dom";
 function HeaderIndividuals() {
+  const navigate = useNavigate();
   const data = [
     {
       id: "1",
@@ -10,7 +12,7 @@ function HeaderIndividuals() {
     {
       id: "2",
       title: "Help Moving",
-      route: "",
+      route: "/individualhelpmoving",
     },
     {
       id: "3",
@@ -38,8 +40,13 @@ function HeaderIndividuals() {
       route: "",
     },
   ];
+  // const handleClik = (val: any) => {
+  //   console.log("----val-----", val);
+
+  // };
   const handleClik = (val: any) => {
     console.log("----val-----", val);
+    navigate(`${val?.route}`);
   };
   return (
     <>

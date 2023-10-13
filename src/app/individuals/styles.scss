@@ -1,0 +1,21 @@
+@use "../../config/variable.scss" as vars;
+.individualhelpmove-box1{
+    height: 100vh;
+    width: 100%;
+}
+.individualhelpmove-box2{
+    width: 100%;
+    height: 50vh;
+    //background-color: pink;
+}
+.individualhelpmove-box3{
+    padding: 20px;
+    background-color: lightgreen;
+}
+.individualhelpmove-box4{
+    padding:16px;
+}
+.individualhelpmove-text{
+   font-family:vars.$Montserrat-Regular;
+   font-size:20px;
+}
