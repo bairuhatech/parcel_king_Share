@@ -41,7 +41,7 @@ function Block3() {
       image: Affortable,
       head: "Safe and Reliable",
       title:
-        "All GoShare delivery professionals are licensed, insured, background checked and reviewed.",
+        "All Parcel king delivery professionals are licensed, insured, background checked and reviewed.",
     },
   ];
   return (
