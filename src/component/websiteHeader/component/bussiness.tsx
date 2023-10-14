@@ -32,7 +32,7 @@ function HeaderBusiness() {
     {
       id: "6",
       title: "Industries",
-      route: "",
+      route: "/industries",
     },
     {
       id: "7",

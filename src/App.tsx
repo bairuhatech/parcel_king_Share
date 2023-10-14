@@ -10,6 +10,7 @@ import MiddleMileDelivery from "./app/business/middlemileDelivery";
 import LtlShipment from "./app/business/itlShipment.tsx";
 import LastMileDelivery from "./app/business/lastmileDelivered";
 import DeliveryLocation from "./app/business/location";
+import BusinessIndustries from "./app/business/industries";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/hotShotdelivery" element={<HotshotDelivery />} />
         <Route path="/pricingandbooking" element={<PricingAndBooking />} />
         <Route path="/deliverylocation" element={<DeliveryLocation />} />
+        <Route path="/industries" element={<BusinessIndustries />} />
       </Routes>
     </div>
   );

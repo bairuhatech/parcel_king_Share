@@ -9,11 +9,14 @@ import HeaderBusiness from "./component/bussiness";
 import HeaderIndividuals from "./component/individuals";
 import HeaderDrivers from "./component/drivers";
 import HeaderMore from "./component/more";
+import HeaderSidebar from "./component/sideBar";
 
 function Header(props: any) {
-  const [open, setOpen] = useState(false);
   const navigate = useNavigate();
-
+  const [open, setOpen] = useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <>
       <div
@@ -73,20 +76,7 @@ function Header(props: any) {
                 onClick={() => setOpen(true)}
               />
             </div>
-            <Drawer
-              placement="right"
-              onClose={() => setOpen(false)}
-              open={open}
-            >
-              <div className="header-Drawer-Box1">
-                <div className="header-Drawer-Box2">
-                  {/* <Select defaultValue={"Business"}></Select> */}
-                  <Popover content={<HeaderBusiness />}>
-                    <span className="header-Drawer-Txt">Business</span>
-                  </Popover>
-                </div>
-              </div>
-            </Drawer>
+            <HeaderSidebar onClose={() => handleClose()} open={open} />
           </Col>
         </Row>
       </div>

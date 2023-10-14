@@ -16,9 +16,9 @@ function DeliveryLocation() {
   return (
     <>
       <Header bgColor={style.background} />
-      {/* <br />
       <br />
-      <br /> */}
+      <br />
+      <br />
       <SectionBlock1
         Image={DeliveryLocationImage1}
         head={"Locations"}

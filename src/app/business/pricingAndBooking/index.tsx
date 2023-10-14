@@ -6,6 +6,7 @@ import PricingAndBookingImage1 from "../../../asset/image/lastMile.jpg";
 import SectionBlock1 from "../../../component/section-Block1";
 import PricingAndBookingForm from "./component/form";
 import Location from "../../../component/location-section";
+import LocationTimeLIne from "./component/timeline";
 
 function PricingAndBooking() {
   const style = {
@@ -18,8 +19,9 @@ function PricingAndBooking() {
       <br />
       <br />
       <SectionBlock1 Image={PricingAndBookingImage1} head={""} />
-      <Location />
-      <PricingAndBookingForm />
+      {/* <Location />
+      <PricingAndBookingForm /> */}
+      <LocationTimeLIne />
       <br />
       <Footer />
     </>

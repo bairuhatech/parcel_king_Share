@@ -1,0 +1,46 @@
+import React from "react";
+import "../styles.scss";
+
+function DeliveryIndustries(props: any) {
+  const data = [
+    { image: props.image1, head: props.head1, title: props.title1 },
+    { image: props.image2, head: props.head2, title: props.title2 },
+    { image: props.image3, head: props.head3, title: props.title3 },
+    { image: props.image4, head: props.head4, title: props.title4 },
+    { image: props.image5, head: props.head5, title: props.title5 },
+    { image: props.image6, head: props.head6, title: props.title6 },
+  ];
+
+  return (
+    <div className="deliveryIndustries-Box1">
+      <div className="deliveryIndustries-Box2">
+        <div className="Business-HeadTxt">Top Industries</div>
+        <hr />
+        {data.map((item: any) => {
+          return (
+            <>
+              <div className="deliveryIndustries-Box3">
+                <div className="deliveryIndustries-Box4">
+                  <div className="deliveryIndustries-Box5">
+                    <img
+                      className="deliveryIndustries-Img"
+                      src={item.image}
+                      alt=""
+                    />
+                  </div>
+                  <br />
+                  <div className="deliveryIndustries-Txt1">{item.head}</div>
+                  {props.title ? (
+                    <div className="deliveryIndustries-Txt2">{item.title}</div>
+                  ) : null}
+                </div>
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+export default DeliveryIndustries;
