@@ -19,6 +19,8 @@ import LastMileDelivered from "./app/business/lastmileDelivered";
 import IndividualMovingTruck from "./app/individuals/movingTrack";
 import IndividualRetaildelivery from "./app/individuals/RetailDelivery";
 import DeliveryLocation from "./app/business/location";
+import Contactus from "./app/drivers/contact";
+import Investors from "./app/drivers/investors";
 function App() {
   return (
     <div className="App">
@@ -51,6 +53,8 @@ function App() {
           path="/individualretaildelivery"
           element={<IndividualRetaildelivery />}
         />
+        <Route path="/contactus" element={<Contactus />} />
+        <Route path="/investors" element={<Investors />} />
       </Routes>
     </div>
   );

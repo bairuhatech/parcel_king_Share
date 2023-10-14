@@ -13,7 +13,7 @@ function HeaderMore() {
     {
       id: "2",
       title: "Contact Us",
-      route: "",
+      route: "/contactus",
     },
     {
       id: "3",
@@ -33,7 +33,7 @@ function HeaderMore() {
     {
       id: "6",
       title: "Investors",
-      route: "",
+      route: "/investors",
     },
     {
       id: "7",

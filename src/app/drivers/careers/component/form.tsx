@@ -91,10 +91,10 @@ function CareerForm() {
             </div> */}
             <Row>
               <Col md={6}>
-                <Button className="caeeerForm-Bttn1">Cancel</Button>
+                <Button className="form-Bttn1">Cancel</Button>
               </Col>
               <Col md={6}>
-                <Button className="caeeerForm-Bttn2">Submit</Button>
+                <Button className="form-Bttn2">Submit</Button>
               </Col>
             </Row>
             <br />
