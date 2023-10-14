@@ -1,11 +1,14 @@
 import React from "react";
 import "./styles.scss";
+import { useNavigate } from "react-router";
 function HeaderMore() {
+  const navigate = useNavigate();
+
   const data = [
     {
       id: "1",
       title: "About Us",
-      route: "",
+      route: "/aboutus",
     },
     {
       id: "2",
@@ -20,7 +23,7 @@ function HeaderMore() {
     {
       id: "4",
       title: "Career",
-      route: "",
+      route: "/Career",
     },
     {
       id: "5",
@@ -40,6 +43,7 @@ function HeaderMore() {
   ];
   const handleClik = (val: any) => {
     console.log("----val-----", val);
+    navigate(`${val.route}`);
   };
   return (
     <>

@@ -412,6 +412,23 @@
   text-align: justify;
   color: vars.$Primary-Color3;
 }
+.SectionBlock3-Box3 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.SectionBlock3-Bttn {
+  width: 200px;
+  height: 50px;
+  font-family: vars.$Montserrat-SemiBold !important;
+  font-size: 18px !important;
+  color: vars.$Primary-Color2 !important;
+  border-color: white !important;
+  background-color: vars.$Primary-Color;
+  &:hover {
+    color: vars.$Primary-Color2;
+  }
+}
 ///////////////////////////////////////-----LASTMILEBLOCK4------////////////////////////////////////
 .SectionBlock4-Box1 {
   width: 100%;

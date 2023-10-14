@@ -11,6 +11,9 @@ import LtlShipment from "./app/business/itlShipment.tsx";
 import LastMileDelivery from "./app/business/lastmileDelivered";
 import DeliveryLocation from "./app/business/location";
 import BusinessIndustries from "./app/business/industries";
+import DriversCareer from "./app/drivers/careers";
+import CareerForm from "./app/drivers/careers/component/form";
+import AboutUs from "./app/drivers/aboutUs";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
         <Route path="/pricingandbooking" element={<PricingAndBooking />} />
         <Route path="/deliverylocation" element={<DeliveryLocation />} />
         <Route path="/industries" element={<BusinessIndustries />} />
+        <Route path="/Career" element={<DriversCareer />} />
+        <Route path="/careerform" element={<CareerForm />} />
+        <Route path="/aboutus" element={<AboutUs />} />
       </Routes>
     </div>
   );

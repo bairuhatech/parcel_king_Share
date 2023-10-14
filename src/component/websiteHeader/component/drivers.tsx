@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.scss";
+import { useNavigate } from "react-router";
 function HeaderDrivers() {
+  const navigate = useNavigate();
   const data = [
     {
       id: "1",
@@ -50,6 +52,7 @@ function HeaderDrivers() {
   ];
   const handleClik = (val: any) => {
     console.log("----val-----", val);
+    navigate(`${val.route}`);
   };
   return (
     <>
