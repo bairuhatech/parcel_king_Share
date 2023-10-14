@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { Row, Col } from "react-bootstrap";
 // import "./styles.scss";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import slick1 from "../../asset/image/slick1.jpg";
@@ -9,9 +8,10 @@ import slick2 from "../../asset/image/slick2.jpg";
 import slick3 from "../../asset/image/slick3.jpg";
 import slick4 from "../../asset/image/slick4.jpg";
 import slick5 from "../../asset/image/slick5.jpg";
+import Slider from "react-slick";
 
 function Block6() {
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<any>(null);
   const settings = {
     infinite: true,
     dots: false,
@@ -95,49 +95,39 @@ function Block6() {
   ];
   return (
     <>
-    <Row className="Block6-fullpage g-0">
-      <Col
-        md={24}
-        sm={24}
-        xs={24}
-        className="Block5-Header"
-      >
-        Our Customers Love ParcelKing
-      </Col>
-      <Col md={24} sm={24} xs={24} className="Block6-corosal">
-        <div className="Sliders-Block6">
-          <Slider ref={sliderRef} {...settings}>
-            {data.map((item, index) => (
-              <div
-                className="Block6-cards"
-                key={index}
-              >
-                <div className="Block6-originalCards">
-                  <div
-                    className="Block6-imagediv"
-                    style={{ backgroundImage: `url(${item.image})` }}
-                  ></div>
-                  <div className="Block6-titleCard">{item.title}</div>
-                  <div className="Block6-titleCard">{item.name}</div>
-                  <div className="Block6-detailsdiv">
-                    {item?.description}
+      <Row className="Block6-fullpage g-0">
+        <Col md={24} sm={24} xs={24} className="Block5-Header">
+          Our Customers Love ParcelKing
+        </Col>
+        <Col md={24} sm={24} xs={24} className="Block6-corosal">
+          <div className="Sliders-Block6">
+            <Slider ref={sliderRef} {...settings}>
+              {data.map((item: any, index: any) => (
+                <div className="Block6-cards" key={index}>
+                  <div className="Block6-originalCards">
+                    <div
+                      className="Block6-imagediv"
+                      style={{ backgroundImage: `url(${item.image})` }}
+                    ></div>
+                    <div className="Block6-titleCard">{item.title}</div>
+                    <div className="Block6-titleCard">{item.name}</div>
+                    <div className="Block6-detailsdiv">{item?.description}</div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </Slider>
-        </div>
-      </Col>
-      <Col md={24} sm={24} xs={24} className="Block6-buttonCol">
-        <br/>
-        <br/>
-        <button className="Block6-buttonDiv">View More Reviews</button>
-        <br/>
-        <br/>
-        <br/>
-      </Col>
-    </Row>
-  </>
+              ))}
+            </Slider>
+          </div>
+        </Col>
+        <Col md={24} sm={24} xs={24} className="Block6-buttonCol">
+          <br />
+          <br />
+          <button className="Block6-buttonDiv">View More Reviews</button>
+          <br />
+          <br />
+          <br />
+        </Col>
+      </Row>
+    </>
   );
 }
 
