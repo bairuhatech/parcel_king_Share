@@ -3,7 +3,6 @@ import "../styles.scss";
 import { Button } from "antd";
 import { useNavigate } from "react-router";
 function SectionBlock3(props: any) {
-  console.log("-----------------props------------>>>", props);
   const navigate = useNavigate();
 
   return (
@@ -11,9 +10,27 @@ function SectionBlock3(props: any) {
       <div className="SectionBlock3-Box1">
         <div className="SectionBlock3-Box2">
           <div className="Business-HeadTxt">{props.head}</div>
+          {props.subHead1 ? (
+            <div className="SectionBlock3-Txt1">{props.subHead1}</div>
+          ) : null}
+
           <div className="SectionBlock3-Txt2">{props.title1}</div>
-          <div className="SectionBlock3-Txt2">{props.title2}</div>
-          <div className="SectionBlock3-Txt2">{props.title3}</div>
+          {props.subHead2 ? (
+            <div className="SectionBlock3-Txt1">{props.subHead2}</div>
+          ) : null}
+          {props.title2 ? (
+            <div className="SectionBlock3-Txt2">{props.title2}</div>
+          ) : null}
+          {props.subHead3 ? (
+            <div className="SectionBlock3-Txt1">{props.subHead3}</div>
+          ) : null}
+          {props.title3 ? (
+            <div className="SectionBlock3-Txt2">{props.title3}</div>
+          ) : null}
+          {props.subHead4 ? (
+            <div className="SectionBlock3-Txt1">{props.subHead4}</div>
+          ) : null}
+
           {props.title4 ? (
             <div className="SectionBlock3-Txt2">{props.title4}</div>
           ) : null}

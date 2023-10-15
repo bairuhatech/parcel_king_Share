@@ -7,6 +7,11 @@ import SectionBlock1 from "../../component/section-Block1";
 import SectionBlock2 from "../../component/section-Block2";
 import SectionBlock3 from "../../component/section-Block3";
 import Footer from "../../component/websiteFooter";
+import Block6 from "../homeScreen/block6";
+import DispatchBlog from "../../component/blog";
+import Block3 from "../homeScreen/block3";
+import SectionBlock4 from "../../component/section-Block4";
+import Location from "../../component/location-section";
 
 function HotshotDelivery() {
   const style = {
@@ -48,7 +53,22 @@ function HotshotDelivery() {
           "Whether you need a small parcel delivery or pallets of items transferred from one location to another, our fleet of vetted independent hot shot delivery professionals are equipped to handle almost any hot shot delivery you throw at them. All of our hot shot delivery professionals are licensed, insured, and background checked to give you that peace of mind you need to run your business."
         }
       />
-
+      <Block3 />
+      <SectionBlock4
+        head={"Hot Shot Delivery Made Easy"}
+        title1={
+          "Our hot shot carrier network includes thousands of Delivery Professionals nationwide who are equipped to handle any and all of your hot shot delivery needs. Our local Delivery Professionals are experts in delivering anything from pallets to parcels. We have a fleet of vehicles that can handle any size hot shot delivery, from box trucks, cargo vans, and pickup trucks to sedans. We have the resources and knowledge to handle any hot shot delivery job."
+        }
+        title2={
+          "As long as the hot shot shipment begins or ends in one of our nationwide service areas, we can accept your hot shot delivery orders. With trucks, vans, and sedans of all sizes, GoShare specializes in big & bulky hot shot deliveries nationwide. We focus on providing fast, reliable hot shot delivery solutions to any size business. We can pick up at your store or warehouse seven days a week, 365 days a year. Expect rapid service and multiple hot shot delivery service levels including white glove, room of choice, or threshold."
+        }
+        title3={
+          "GoShare is a logistics technology company that facilitates hot shot deliveries, last mile deliveries, middle mile deliveries, LTL shipments, and pallet shipment solutions for businesses nationwide. We are dedicated to delivering happiness in every aspect of our hot shot delivery service, from our drivers and customer support team to our proprietary software. Try us and see why our customers say we’re the best hot shot delivery service available. Contact us today for more information about how GoShare can help your business grow. Our network of hot shot delivery professionals have the vehicles, equipment, and expertise needed to deliver your items safely to your customer’s front door."
+        }
+      />
+      <Block6 />
+      <Location />
+      <DispatchBlog />
       <Footer />
     </>
   );

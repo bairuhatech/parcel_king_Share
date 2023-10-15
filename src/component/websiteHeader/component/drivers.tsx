@@ -19,7 +19,7 @@ function HeaderDrivers() {
     {
       id: "3",
       title: "Benefits",
-      route: "",
+      route: "/benefits",
     },
     {
       id: "4",
@@ -34,7 +34,7 @@ function HeaderDrivers() {
     {
       id: "6",
       title: "Get More Works",
-      route: "",
+      route: "/getmorework",
     },
     {
       id: "7",

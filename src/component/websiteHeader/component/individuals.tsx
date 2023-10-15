@@ -27,12 +27,12 @@ function HeaderIndividuals() {
     {
       id: "5",
       title: "Junk Hauling",
-      route: "",
+      route: "/hualingservices",
     },
     {
       id: "6",
       title: "Donate",
-      route: "",
+      route: "/donate",
     },
     {
       id: "7",

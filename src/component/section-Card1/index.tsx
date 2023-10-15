@@ -10,8 +10,9 @@ function SectionCard1(props: any) {
     { image: props.image5, head: props.head5, title: props.title5 },
     { image: props.image6, head: props.head6, title: props.title6 },
   ];
+
   const filteredData = data.filter(
-    (item) => item.image && item.head && item.title
+    (item) => (item.image && item.head) || item.title
   );
   return (
     <div className="deliveryIndustries-Box1">

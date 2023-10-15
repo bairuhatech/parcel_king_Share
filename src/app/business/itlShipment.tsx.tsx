@@ -7,6 +7,8 @@ import SectionBlock2 from "../../component/section-Block2";
 import Block3 from "../homeScreen/block3";
 import Block5 from "../homeScreen/block5";
 import Footer from "../../component/websiteFooter";
+import DispatchBlog from "../../component/blog";
+import Block6 from "../homeScreen/block6";
 function LtlShipment() {
   const style = {
     background: "linear-gradient(208deg, #3d5877 0%, #151e29 100%)",
@@ -40,6 +42,8 @@ function LtlShipment() {
       <Block3 />
       {/* <BusinessBlock3 head={""} /> */}
       <Block5 />
+      <Block6 />
+      <DispatchBlog />
       <Footer />
     </>
   );

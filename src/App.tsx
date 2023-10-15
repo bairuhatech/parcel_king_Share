@@ -4,10 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./app/homeScreen/index";
 import SignUpScreen from "./component/signUpScreen";
 import BusinessIndustries from "./app/business/industries";
-import DriversCareer from "./app/drivers/careers";
-import CareerForm from "./app/drivers/careers/component/form";
-import AboutUs from "./app/drivers/aboutUs";
-
 import IndividualHelpmoving from "./app/individuals/helpingMoving";
 import SignUpToDrive from "./app/drivers/signUpToDrive/intex";
 import LernMoreDrivers from "./app/drivers/lernMore";
@@ -17,10 +13,17 @@ import MiddleMileDelivery from "./app/business/middlemileDelivery";
 import LtlShipment from "./app/business/itlShipment.tsx";
 import LastMileDelivered from "./app/business/lastmileDelivered";
 import IndividualMovingTruck from "./app/individuals/movingTrack";
-import IndividualRetaildelivery from "./app/individuals/RetailDelivery";
 import DeliveryLocation from "./app/business/location";
-import Contactus from "./app/drivers/contact";
-import Investors from "./app/drivers/investors";
+import IndividualRetaildelivery from "./app/individuals/RetailDelivery";
+import HualingServices from "./app/individuals/hualingServices";
+import Donate from "./app/individuals/donate";
+import Contactus from "./app/more/contact";
+import DriversCareer from "./app/more/careeers";
+import CareerForm from "./app/more/careeers/component/career-Block1";
+import AboutUs from "./app/more/aboutus";
+import Investors from "./app/more/investors";
+import Benefits from "./app/more/benefits";
+import GetMoreWork from "./app/more/getMoreWork";
 function App() {
   return (
     <div className="App">
@@ -55,6 +58,10 @@ function App() {
         />
         <Route path="/contactus" element={<Contactus />} />
         <Route path="/investors" element={<Investors />} />
+        <Route path="/hualingservices" element={<HualingServices />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/benefits" element={<Benefits />} />
+        <Route path="/getmorework" element={<GetMoreWork />} />
       </Routes>
     </div>
   );

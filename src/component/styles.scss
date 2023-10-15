@@ -8,11 +8,11 @@
   margin-top: 38px;
 }
 .signUpScreen-Box2 {
-  max-width: 606px;
+  min-width: 506px;
   background-color: vars.$Primary-Color2;
   border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 26px;
+  padding: 20px;
   @media only screen and (max-width: 576px) {
     width: 95%;
   }
@@ -381,6 +381,9 @@
   width: 100%;
   height: 100%;
   // background-color: rgb(136, 136, 136);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .SectionBlock2-img {
   width: 100%;
@@ -404,6 +407,12 @@
   @media only screen and (max-width: 576px) {
     padding: 10px;
   }
+}
+.SectionBlock3-Txt1 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 20px;
+  padding-top: 16px;
+  color: #0000006e;
 }
 .SectionBlock3-Txt2 {
   font-family: vars.$Montserrat-SemiBold;
@@ -440,7 +449,6 @@
   font-family: vars.$Montserrat-SemiBold;
   font-size: 14px;
   padding-top: 16px;
-  text-align: center;
   color: vars.$Primary-Color3;
 }
 //////////////////////////////--------LOCATION-SECTION----------//////////////////////////////
