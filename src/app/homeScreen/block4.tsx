@@ -47,7 +47,7 @@ function Block4() {
   return (
     <>
       <div className="block4-Box1">
-        <div className="block-Txt1">Our Services And Features</div>
+        <div className="Business-HeadTxt">Our Services And Features</div>
         <div className="block4-Box2">
           {data.map((item: any) => {
             return (

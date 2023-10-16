@@ -326,45 +326,43 @@
   text-align: center;
 }
 
-
 /////////////////block6//////////////
-
 
 .Block6-fullpage {
   width: 100%;
   background-color: vars.$Background-Color;
 }
-.Block6-corosal{
+.Block6-corosal {
   height: 70%;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
-.Block6-buttonCol{
+.Block6-buttonCol {
   height: 10%;
   display: flex;
   justify-content: center;
 }
-.sliderCard{
+.sliderCard {
   width: 290px;
   height: 200px;
 }
 
-.Sliders-Block6{
+.Sliders-Block6 {
   width: 80%;
   height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.Block6-cards{
+.Block6-cards {
   height: 350px;
   padding: 10px;
-  display: flex!important;
-  justify-content: center!important;
-  align-items: center!important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
-.Block6-originalCards{
+.Block6-originalCards {
   width: 90%;
   height: 100%;
   display: flex;
@@ -372,14 +370,14 @@
   align-items: center;
   flex-direction: column;
 }
-.Block6-imagediv{
+.Block6-imagediv {
   width: 250px;
   height: 170px;
   background-size: cover;
   background-position: center;
-  border-radius: 6px 6px 6px  6px;
+  border-radius: 6px 6px 6px 6px;
 }
-.Block6-titleCard{
+.Block6-titleCard {
   width: 100%;
   height: 10%;
   display: flex;
@@ -390,7 +388,7 @@
   font-size: 13px;
   // background-color: #ffffff;
 }
-.Block6-detailsdiv{
+.Block6-detailsdiv {
   width: 100%;
   height: 30%;
   display: flex;
@@ -400,7 +398,7 @@
   text-align: center;
   // background-color: #ffffff;
 }
-.Block6-buttonDiv{
+.Block6-buttonDiv {
   width: 200px;
   height: 40px;
   background-color: vars.$Primary-Color;
@@ -413,4 +411,111 @@
     color: vars.$Primary-Color2 !important;
     border: 1px solid white !important;
   }
+}
+
+////////////////////////Block 7//////////////////////
+
+.Block7-start {
+  width: 100%;
+  // height: 100vh;
+  padding: 50px;
+  @media screen and (max-width: 576px) {
+    padding: 24px;
+  }
+}
+.FirstCol-Block7 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondCol-Block7 {
+  height: #ff0000;
+  display: flex;
+  align-items: center;
+}
+.content-Block7 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media screen and (max-width: 576px) {
+    height: 100%;
+  }
+}
+
+.location-Block7 {
+  font-size: 50px;
+  font-family: vars.$Montserrat-ExtraBold;
+}
+.subText-Block7 {
+  font-size: 20px;
+  font-family: vars.$Montserrat-Bold;
+}
+.button-Block7 {
+  width: 200px;
+  height: 40px;
+  background-color: vars.$Primary-Color;
+  font-family: vars.$Montserrat-Bold;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  color: vars.$Primary-Color2;
+  &:hover {
+    color: vars.$Primary-Color2 !important;
+    border: 1px solid white !important;
+  }
+}
+.maps-Block7 {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../asset/image/map1.svg);
+  background-position: center;
+  background-size: cover;
+  @media screen and (max-width: 576px) {
+    height: 350px;
+  }
+}
+
+//////////////////Block 8////////////////
+
+.main-Block8 {
+  width: 100%;
+}
+.firstCol-Block8 {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondCol-Block8 {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsTitles-Block8 {
+  width: 85%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.NewsChannels-Block8 {
+  width: 50%;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.newsContaining-Block8 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.videoDiv-Block8 {
+  height: 500px;
+  width: 85%;
+  background-size: cover;
+  background-position: center;
 }

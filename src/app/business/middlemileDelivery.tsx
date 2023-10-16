@@ -7,6 +7,7 @@ import SectionBlock1 from "../../component/section-Block1";
 import SectionBlock2 from "../../component/section-Block2";
 import Block3 from "../homeScreen/block3";
 import SectionBlock3 from "../../component/section-Block3";
+import Footer from "../../component/websiteFooter";
 
 function MiddleMileDelivery() {
   const style = {
@@ -15,6 +16,9 @@ function MiddleMileDelivery() {
   return (
     <>
       <Header bgColor={style.background} />
+      <br />
+      <br />
+      <br />
       <SectionBlock1
         Image={MiddleMilesImage1}
         head={"The best middle mile delivery service nationwide"}
@@ -45,6 +49,7 @@ function MiddleMileDelivery() {
         }
         title4={""}
       />
+      <Footer />
     </>
   );
 }

@@ -17,6 +17,9 @@ function LastMileDelivered(props: any) {
   return (
     <div>
       <Header bgColor={style.background} />
+      <br />
+      <br />
+      <br />
       <SectionBlock1
         Image={LastMile}
         head={"The best last mile delivery service nationwide"}

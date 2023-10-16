@@ -8,11 +8,11 @@
   margin-top: 38px;
 }
 .signUpScreen-Box2 {
-  width: 40%;
+  min-width: 506px;
   background-color: vars.$Primary-Color2;
   border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  padding: 26px;
+  padding: 20px;
   @media only screen and (max-width: 576px) {
     width: 95%;
   }
@@ -261,12 +261,50 @@
     border: 1px solid white !important;
   }
 }
+.header-Drawer-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header-Drawer-Box2 {
+  // padding: 20px;
+  width: 100%;
+  // height: 100%;
+  // border-bottom: 1px solid red;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 24px;
+  color: vars.$Primary-Color;
+  width: 100%;
+}
+.header-Drawer-Txt {
+  width: 100%;
+  height: 48px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 20px;
+  background-color: vars.$Primary-Color;
+  border: none;
+  color: vars.$Primary-Color2;
+  border-radius: 8px;
+}
+.header-Drawer-Box3 {
+  width: 100%;
+  background-color: vars.$Primary-Color;
+  border-radius: 8px;
+}
+.header-Drawer-Box4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 /////////////////////////////////////----------SECTION-BLOCK1----------/////////////////////////////////////////////
 .SectionBlock1-Box1 {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  margin-top: 38px;
+  // margin-top: 38px;
 }
 .SectionBlock1-Box2 {
   position: absolute;
@@ -279,6 +317,9 @@
   flex-direction: column;
   //   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
 }
 .SectionBlock1-Txt1 {
   font-family: vars.$Montserrat-ExtraBold;
@@ -340,6 +381,13 @@
   width: 100%;
   height: 100%;
   // background-color: rgb(136, 136, 136);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  @media only screen and (max-width: 576px) {
+    padding: 0px;
+  }
 }
 .SectionBlock2-img {
   width: 100%;
@@ -352,14 +400,32 @@
   font-size: 12px;
   color: vars.$Primary-Color3;
   padding: 16px;
+  @media only screen and (max-width: 576px) {
+    padding: 16px;
+  }
 }
-
+.sectionBlock2-Txt2 {
+  font-family: vars.$Montserrat-ExtraBold;
+  font-size: 28px;
+  color: vars.$Primary-Color3;
+  opacity: 0.5;
+  padding: 16px;
+}
 /////////////////////////////----------SECTION-BLOCK-3------------////////////////////////////////////////////////////
 .SectionBlock3-Box1 {
   width: 100%;
   height: 100%;
   padding: 46px 70px 60px 70px;
   background-color: #f1f1f1;
+  @media only screen and (max-width: 576px) {
+    padding: 10px;
+  }
+}
+.SectionBlock3-Txt1 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 20px;
+  padding-top: 16px;
+  color: #0000006e;
 }
 .SectionBlock3-Txt2 {
   font-family: vars.$Montserrat-SemiBold;
@@ -367,6 +433,33 @@
   padding-top: 16px;
   text-align: justify;
   color: vars.$Primary-Color3;
+  @media only screen and (max-width: 576px) {
+    padding: 16px;
+  }
+}
+.SectionBlock3-Box3 {
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+.SectionBlock3-Box4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.SectionBlock3-Bttn {
+  width: 200px;
+  height: 50px;
+  font-family: vars.$Montserrat-SemiBold !important;
+  font-size: 18px !important;
+  color: vars.$Primary-Color2 !important;
+  border-color: white !important;
+  background-color: vars.$Primary-Color;
+  &:hover {
+    color: vars.$Primary-Color2;
+  }
 }
 ///////////////////////////////////////-----LASTMILEBLOCK4------////////////////////////////////////
 .SectionBlock4-Box1 {
@@ -379,6 +472,101 @@
   font-family: vars.$Montserrat-SemiBold;
   font-size: 14px;
   padding-top: 16px;
-  text-align: center;
   color: vars.$Primary-Color3;
+}
+//////////////////////////////--------LOCATION-SECTION----------//////////////////////////////
+.location-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.location-Box2 {
+  width: 80%;
+  height: 100%;
+  // background-color: red;
+}
+.location-Box3 {
+  width: 100%;
+  height: 500px;
+  @media only screen and (max-width: 576px) {
+    height: 184px;
+  }
+}
+.location-Box4 {
+  width: 100%;
+  text-align: center;
+}
+.location-Txt1 {
+  font-family: vars.$Montserrat-Medium;
+  font-size: 14px;
+  color: vars.$Primary-Color3;
+  text-align: center;
+}
+///////////////////////////////---------DELIVERY-INDUSTRIES-----------////////////////////////
+.deliveryIndustries-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.deliveryIndustries-Box2 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.deliveryIndustries-Box3 {
+  width: 33%;
+  height: 100%;
+  padding: 20px;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.deliveryIndustries-Box4 {
+  width: 100%;
+  min-height: 250px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.deliveryIndustries-Box5 {
+  width: 100%;
+  height: 100px;
+  // background-color: pink;
+}
+.deliveryIndustries-Box6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.deliveryIndustries-Img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.deliveryIndustries-Txt1 {
+  width: 100%;
+  text-align: center;
+  font-family: vars.$Montserrat-Bold;
+  font-size: 18px;
+  color: vars.$Primary-Color;
+}
+.deliveryIndustries-Txt2 {
+  width: 100%;
+  text-align: center;
+  font-family: vars.$Montserrat-Medium;
+  font-size: 14px;
 }

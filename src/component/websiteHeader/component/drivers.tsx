@@ -19,12 +19,12 @@ function HeaderDrivers() {
     {
       id: "3",
       title: "Benefits",
-      route: "",
+      route: "/benefits",
     },
     {
       id: "4",
       title: "Reviews",
-      route: "",
+      route: "/driver-review",
     },
     {
       id: "5",
@@ -34,7 +34,7 @@ function HeaderDrivers() {
     {
       id: "6",
       title: "Get More Works",
-      route: "",
+      route: "/getmorework",
     },
     {
       id: "7",
@@ -44,7 +44,7 @@ function HeaderDrivers() {
     {
       id: "8",
       title: "Fleet Owners",
-      route: "",
+      route: "/fleetowners",
     },
     {
       id: "9",

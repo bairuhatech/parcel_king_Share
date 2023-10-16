@@ -8,10 +8,15 @@ import Header from "../../../component/websiteHeader";
 import Footer from "../../../component/websiteFooter";
 
 const LernMoreDrivers = () => {
+  const style = {
+    background: "linear-gradient(208deg, #3d5877 0%, #151e29 100%)",
+  };
   return (
     <div>
-      {/* <DriversBlock1 /> */}
-      <Header />
+      <Header bgColor={style.background} />
+      <br />
+      <br />
+      <br />
       <SectionBlock1
         Image={LastMile}
         head={"The best middle mile delivery service nationwide"}
