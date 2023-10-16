@@ -29,6 +29,7 @@ import DriverReview from "./app/drivers/review";
 import FleetOwners from "./app/drivers/fleetOwner";
 import FleetOwnersForm from "./app/drivers/fleetOwner/component/form";
 import ResourceCenter from "./app/drivers/resourceCenter";
+import News from "./app/drivers/news";
 function App() {
   return (
     <div className="App">
@@ -72,6 +73,7 @@ function App() {
         <Route path="/fleetowners" element={<FleetOwners />} />
         <Route path="/fleet-signup" element={<FleetOwnersForm />} />
         <Route path="/resources-center" element={<ResourceCenter />} />
+        <Route path="/News" element={<News />} />
       </Routes>
     </div>
   );

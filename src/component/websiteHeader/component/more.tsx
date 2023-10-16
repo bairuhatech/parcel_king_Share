@@ -38,7 +38,7 @@ function HeaderMore() {
     {
       id: "7",
       title: "News",
-      route: "",
+      route: "/News",
     },
   ];
   const handleClik = (val: any) => {
