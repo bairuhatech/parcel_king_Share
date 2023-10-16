@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles.scss";
 import { Button } from "antd";
-
+import { useNavigate } from "react-router-dom";
 function SectionCard1(props: any) {
+  const navigate = useNavigate();
   const data = [
     { image: props.image1, head: props.head1, title: props.title1 },
     { image: props.image2, head: props.head2, title: props.title2 },
@@ -44,7 +45,14 @@ function SectionCard1(props: any) {
         })}
         {props.buttonTxt ? (
           <div className="deliveryIndustries-Box6">
-            <Button className="form-Bttn1">{props.buttonTxt}</Button>
+            <div className="deliveryIndustries-Box7">
+              <Button
+                className="form-Bttn1"
+                onClick={() => navigate(props.dynamicUrl)}
+              >
+                {props.buttonTxt}
+              </Button>
+            </div>
           </div>
         ) : null}
       </div>

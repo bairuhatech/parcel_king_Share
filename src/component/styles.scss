@@ -14,7 +14,7 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 20px;
   @media only screen and (max-width: 576px) {
-    width: 95%;
+    min-width: 95%;
   }
 }
 .signUpScreen-Box3 {
@@ -551,6 +551,9 @@
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+.deliveryIndustries-Box7 {
+  width: 240px;
 }
 .deliveryIndustries-Img {
   width: 100%;

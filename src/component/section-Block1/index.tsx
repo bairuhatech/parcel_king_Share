@@ -1,7 +1,9 @@
 import React from "react";
 import "../styles.scss";
 import { Button } from "antd";
+import { useNavigate } from "react-router-dom";
 function SectionBlock1(props: any) {
+  const navigate = useNavigate();
   return (
     <>
       <div className="SectionBlock1-Box1">
@@ -15,7 +17,10 @@ function SectionBlock1(props: any) {
         <div className="SectionBlock1-Txt2">{props.title}</div>
         {props.ButtonPrimary ? (
           <div className="SectionBlock1-Box3">
-            <Button className="SectionBlock1-Bttn">
+            <Button
+              className="SectionBlock1-Bttn"
+              onClick={() => navigate(props.dynamicUrl)}
+            >
               {props.ButtonPrimary}
             </Button>
           </div>

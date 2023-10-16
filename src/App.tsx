@@ -28,6 +28,7 @@ import IndividualsReview from "./app/individuals/review";
 import DriverReview from "./app/drivers/review";
 import FleetOwners from "./app/drivers/fleetOwner";
 import FleetOwnersForm from "./app/drivers/fleetOwner/component/form";
+import ResourceCenter from "./app/drivers/resourceCenter";
 function App() {
   return (
     <div className="App">
@@ -70,6 +71,7 @@ function App() {
         <Route path="/driver-review" element={<DriverReview />} />
         <Route path="/fleetowners" element={<FleetOwners />} />
         <Route path="/fleet-signup" element={<FleetOwnersForm />} />
+        <Route path="/resources-center" element={<ResourceCenter />} />
       </Routes>
     </div>
   );

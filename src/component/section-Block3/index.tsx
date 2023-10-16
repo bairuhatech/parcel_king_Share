@@ -2,6 +2,7 @@ import React from "react";
 import "../styles.scss";
 import { Button } from "antd";
 import { useNavigate } from "react-router";
+import { Col } from "react-bootstrap";
 function SectionBlock3(props: any) {
   const navigate = useNavigate();
 
@@ -75,7 +76,9 @@ function SectionBlock3(props: any) {
             <div className="SectionBlock3-Txt2">{props.title10}</div>
           ) : null}
           {props.ButtonTxt ? (
-            <div className="SectionBlock3-Box4">
+            // <div className="SectionBlock3-Box4">
+
+            <Col md={{ span: 4, offset: 4 }}>
               <br />
               <Button
                 className="form-Bttn1"
@@ -83,8 +86,9 @@ function SectionBlock3(props: any) {
               >
                 {props.ButtonTxt}
               </Button>
-            </div>
-          ) : null}
+            </Col>
+          ) : // </div>
+          null}
         </div>
       </div>
     </>

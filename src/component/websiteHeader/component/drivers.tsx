@@ -49,7 +49,7 @@ function HeaderDrivers() {
     {
       id: "9",
       title: "Resource Center",
-      route: "",
+      route: "/resources-center",
     },
     {
       id: "10",
