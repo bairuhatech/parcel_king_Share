@@ -32,7 +32,9 @@ function SectionBlock2(props: any) {
               ) : null}
               <div className="SectionBlock2-Txt1">{props.title1}</div>
               <div className="SectionBlock2-Txt1">{props.title2}</div>
-              <div className="SectionBlock2-Txt1">{props.title3}</div>
+              {props.title3 ? (
+                <div className="SectionBlock2-Txt1">{props.title3}</div>
+              ) : null}
               {/* <div className="SectionBlock2-Txt1">{title4}</div> */}
               {props.buttonTxt ? (
                 <div>
