@@ -17,17 +17,17 @@ function HeaderBusiness() {
     {
       id: "3",
       title: "LTL Shipping",
-      route: "",
+      route: "/ltlshipment",
     },
     {
       id: "4",
       title: "Hot Shot Delivery",
-      route: "",
+      route: "/hotShotdelivery",
     },
     {
       id: "5",
       title: "Pricing and Booking",
-      route: "",
+      route: "/pricingandbooking",
     },
     {
       id: "6",
@@ -37,7 +37,7 @@ function HeaderBusiness() {
     {
       id: "7",
       title: "Locations",
-      route: "",
+      route: "/deliverylocation",
     },
   ];
   const handleClik = (val: any) => {

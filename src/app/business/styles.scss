@@ -1,130 +1,91 @@
 @use "../../config/variable.scss" as vars;
 ///////////////////////////////////////////////////////////////////////////////////
-.Business-HeadTxt {
+.PricingAndBookingForm-Box1 {
   width: 100%;
-  /* padding: 20px; */
-  font-family: "Montserrat-ExtraBold";
-  font-size: 42px;
-  text-align: center;
-  color: #ffc400;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
-//////////////////////////////////////////////////////////////////////////////////
-.BusinessBlock1-Box1 {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  margin-top: 38px;
-}
-.BusinessBlock1-Box2 {
-  position: absolute;
-  top: 0;
-  width: 60%;
+.PricingAndBookingForm-Box2 {
+  width: 50%;
   height: 100%;
   //   background-color: red;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  //   align-items: center;
-  justify-content: center;
-}
-.BusinessBlock1-Txt1 {
-  font-family: vars.$Montserrat-ExtraBold;
-  font-size: 42px;
-  color: white;
-  opacity: 0.7;
-}
-.BusinessBlock1-Txt2 {
-  font-family: vars.$Montserrat-SemiBold;
-  font-size: 16px;
-  color: vars.$Primary-Color;
-  opacity: 0.9;
-}
-.BusinessBlock1-Box3 {
-  padding-top: 20px;
-}
-.BusinessBlock1-Bttn {
-  width: 180px;
-  height: 42px;
-  font-family: vars.$Montserrat-Medium;
-  color: white;
-  font-size: 14px;
-  border: 2px solid #ffc400;
-  background-color: transparent;
-  &:hover {
-    color: white !important;
-
-    border: 1px solid #ffc400 !important;
-  }
-}
-/////////////////////////////-----LASTMILE-BLOCK2----------------////////////////////
-.BusinessBlock2-Box1 {
-  width: 100%;
-  height: 100%;
-  padding: 46px 70px 40px 70px;
-  // background-color: #ffc400;
   @media only screen and (max-width: 576px) {
-    padding: 10px;
+    width: 90%;
   }
 }
-.BusinessBlock2-Box2 {
-  width: 100%;
-  height: 100%;
-  // background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.PricingAndBookingForm-Txt1 {
+  font-family: vars.$Montserrat-Bold;
+  font-size: 28px;
+  text-align: center;
 }
-.BusinessBlock2-Box3 {
+.PricingAndBookingForm-bttn1 {
   width: 100%;
-  height: 500px;
-  // background-color: red;
-  border-radius: 8px;
-  @media only screen and (max-width: 576px) {
-    height: 300px;
-  }
-}
-.BusinessBlock2-Box4 {
-  width: 100%;
-  height: 100%;
-  // background-color: rgb(136, 136, 136);
-}
-.BusinessBlock2-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
-.BusinessBlock2-Txt1 {
+  height: 40px;
   font-family: vars.$Montserrat-SemiBold;
   font-size: 12px;
-  color: vars.$Primary-Color3;
+  color: white;
+  background-color: vars.$Primary-Color3;
+  &:hover {
+    color: vars.$Primary-Color2 !important;
+  }
+}
+.PricingAndBookingForm-bttn2 {
+  width: 100%;
+  height: 40px;
+  font-family: vars.$Montserrat-SemiBold;
+  font-size: 12px;
+  color: white;
+  background-color: vars.$Primary-Color;
+  &:hover {
+    color: vars.$Primary-Color2 !important;
+  }
+}
+///////////////////////////////--------------LOCATION-SITES---------------////////////////////////
+.LocationSites-Box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.LocationSites-Box2 {
+  width: 80%;
+  height: 100%;
+  @media only screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+.LocationSites-Box3 {
+  width: 100%;
+  height: 200px;
   padding: 16px;
+  position: relative;
 }
-//////////////////////////////////////-----LastmileBlock3-Block3------///////////////////////////////////
-.BusinessBlock3-Box1 {
+.LocationSites-Box4 {
   width: 100%;
   height: 100%;
-  padding: 46px 70px 60px 70px;
-  background-color: #f1f1f1;
+  background-color: white;
 }
-.BusinessBlock3-Txt2 {
+.LocationSites-Txt1 {
   font-family: vars.$Montserrat-SemiBold;
-  font-size: 14px;
-  padding-top: 16px;
-  text-align: center;
-  color: vars.$Primary-Color3;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
-///////////////////////////////////////-----LASTMILEBLOCK4------////////////////////////////////////
-.BusinessBlock4-Box1 {
+///////////////////////////////-------LOCATION-TIMELINE----------/////////////////////////////
+.LocationTimeLIne-Box1 {
   width: 100%;
   height: 100%;
-  padding: 46px 70px 60px 70px;
-  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
 }
-.BusinessBlock4-Txt2 {
-  font-family: vars.$Montserrat-SemiBold;
-  font-size: 14px;
-  padding-top: 16px;
-  text-align: center;
-  color: vars.$Primary-Color3;
+.LocationTimeLIne-Box2 {
+  width: 80%;
+  height: 100%;
 }

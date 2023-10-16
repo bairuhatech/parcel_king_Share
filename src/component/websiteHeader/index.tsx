@@ -2,18 +2,21 @@ import React, { useState } from "react";
 import "../styles.scss";
 import { Row, Col } from "react-bootstrap";
 import Logo from "../../asset/image/logo.png";
-import { Button, Drawer, Popover } from "antd";
+import { Button, Drawer, Popover, Select } from "antd";
 import { HiOutlineMenu } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
 import HeaderBusiness from "./component/bussiness";
 import HeaderIndividuals from "./component/individuals";
 import HeaderDrivers from "./component/drivers";
 import HeaderMore from "./component/more";
+import HeaderSidebar from "./component/sideBar";
 
 function Header(props: any) {
-  const [open, setOpen] = useState(false);
   const navigate = useNavigate();
-
+  const [open, setOpen] = useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
   return (
     <>
       <div
@@ -73,11 +76,7 @@ function Header(props: any) {
                 onClick={() => setOpen(true)}
               />
             </div>
-            <Drawer
-              placement="left"
-              onClose={() => setOpen(false)}
-              open={open}
-            ></Drawer>
+            <HeaderSidebar onClose={() => handleClose()} open={open} />
           </Col>
         </Row>
       </div>
