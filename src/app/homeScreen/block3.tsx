@@ -47,7 +47,7 @@ function Block3() {
   return (
     <>
       <div className="block3-Box1">
-        <div className="block-Txt1">Why Choose Parcel King</div>
+        <div className="Business-HeadTxt">Why Choose Parcel King</div>
         <div className="block3-Box3">
           for Last Mile Delivery and Moving Services?
         </div>

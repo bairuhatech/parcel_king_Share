@@ -96,7 +96,7 @@ function Block6() {
   return (
     <>
       <Row className="Block6-fullpage g-0">
-        <Col md={24} sm={24} xs={24} className="Block5-Header">
+        <Col md={24} sm={24} xs={24} className="Business-HeadTxt">
           Our Customers Love ParcelKing
         </Col>
         <Col md={24} sm={24} xs={24} className="Block6-corosal">

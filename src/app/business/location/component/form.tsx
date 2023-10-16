@@ -53,7 +53,7 @@ function PricingAndBookingForm() {
                 <Input />
               </Form.Item>
             </Col>
-            <Row>
+            <Row className="g-0">
               <Col md={3}>
                 <Button className="PricingAndBookingForm-bttn1">Cancel</Button>
               </Col>
