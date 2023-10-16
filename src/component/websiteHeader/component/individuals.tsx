@@ -37,13 +37,9 @@ function HeaderIndividuals() {
     {
       id: "7",
       title: "Reviews",
-      route: "",
+      route: "/individuals-review",
     },
   ];
-  // const handleClik = (val: any) => {
-  //   console.log("----val-----", val);
-
-  // };
   const handleClik = (val: any) => {
     console.log("----val-----", val);
     navigate(`${val?.route}`);

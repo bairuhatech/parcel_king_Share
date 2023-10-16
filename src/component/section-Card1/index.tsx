@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles.scss";
+import { Button } from "antd";
 
 function SectionCard1(props: any) {
   const data = [
@@ -41,6 +42,11 @@ function SectionCard1(props: any) {
             </>
           );
         })}
+        {props.buttonTxt ? (
+          <div className="deliveryIndustries-Box6">
+            <Button className="form-Bttn1">{props.buttonTxt}</Button>
+          </div>
+        ) : null}
       </div>
     </div>
   );

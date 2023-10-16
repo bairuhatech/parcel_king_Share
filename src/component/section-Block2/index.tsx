@@ -2,7 +2,10 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Image from "../../../asset/image/lastmile2.jpg";
 import "../styles.scss";
+import { Button } from "antd";
+import { useNavigate } from "react-router-dom";
 function SectionBlock2(props: any) {
+  const navigate = useNavigate();
   const title4 = (
     <p>
       For more information about how our modern last mile delivery solutions can
@@ -24,10 +27,23 @@ function SectionBlock2(props: any) {
           </Col>
           <Col md={6}>
             <div className="SectionBlock2-Box4">
+              {props.head ? (
+                <div className="sectionBlock2-Txt2">{props.head}</div>
+              ) : null}
               <div className="SectionBlock2-Txt1">{props.title1}</div>
               <div className="SectionBlock2-Txt1">{props.title2}</div>
               <div className="SectionBlock2-Txt1">{props.title3}</div>
               {/* <div className="SectionBlock2-Txt1">{title4}</div> */}
+              {props.buttonTxt ? (
+                <div>
+                  <Button
+                    className="form-Bttn2"
+                    onClick={() => navigate(props.dynamicURL)}
+                  >
+                    {props.buttonTxt}
+                  </Button>
+                </div>
+              ) : null}
             </div>
           </Col>
         </Row>

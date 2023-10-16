@@ -24,6 +24,10 @@ import AboutUs from "./app/more/aboutus";
 import Investors from "./app/more/investors";
 import Benefits from "./app/more/benefits";
 import GetMoreWork from "./app/more/getMoreWork";
+import IndividualsReview from "./app/individuals/review";
+import DriverReview from "./app/drivers/review";
+import FleetOwners from "./app/drivers/fleetOwner";
+import FleetOwnersForm from "./app/drivers/fleetOwner/component/form";
 function App() {
   return (
     <div className="App">
@@ -62,6 +66,10 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/getmorework" element={<GetMoreWork />} />
+        <Route path="/individuals-review" element={<IndividualsReview />} />
+        <Route path="/driver-review" element={<DriverReview />} />
+        <Route path="/fleetowners" element={<FleetOwners />} />
+        <Route path="/fleet-signup" element={<FleetOwnersForm />} />
       </Routes>
     </div>
   );
