@@ -1,0 +1,49 @@
+@use "../../config/variable.scss" as vars;
+
+.BookNow-start {
+  width: 100%;
+  height: 100%;
+  background-color: vars.$Background-Color;
+  padding: 20px 180px 20px 180px;
+  @media screen and (max-width: 768px) {
+    padding: 0px;
+  }
+}
+
+//////////////////////   STEP 1 ///////////////
+.mainCards-BookNow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: vars.$Primary-Color;
+  padding: 46px 20px 0px 20px;
+  width: 100%;
+}
+
+.HeadingCol {
+  height: 60px;
+  font-family: vars.$Montserrat-Bold;
+  display: flex;
+  align-items: center;  
+  font-size: 25px;
+    border-bottom: 1px solid gray;
+}
+.formitem-Step1{
+    height: 80px;
+    font-family: vars.$Montserrat-Bold;
+    font-size: 12px;
+}
+.inputStyle-Step1{
+    font-size: 12px;
+    font-family: vars.$Montserrat-SemiBold;
+    height: 45px;
+}
+.DatepickerSize-Step1{
+    width: 90%;
+}
+.AddmoreButton{
+    font-family: vars.$Montserrat-Medium;
+}
+.timeZoneTxt-step1{
+    font-size: 13px;
+    font-family: vars.$Montserrat-SemiBold;
+}

@@ -24,6 +24,8 @@ import AboutUs from "./app/more/aboutus";
 import Investors from "./app/more/investors";
 import Benefits from "./app/more/benefits";
 import GetMoreWork from "./app/more/getMoreWork";
+import Booknow from "./component/booknow";
+
 function App() {
   return (
     <div className="App">
@@ -62,6 +64,7 @@ function App() {
         <Route path="/donate" element={<Donate />} />
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/getmorework" element={<GetMoreWork />} />
+        <Route path="/booknow" element={<Booknow/>}/>
       </Routes>
     </div>
   );
