@@ -39,7 +39,7 @@ function HeaderDrivers() {
     {
       id: "7",
       title: "Vehicle Recuirements",
-      route: "",
+      route: "/vehiclerequirements",
     },
     {
       id: "8",

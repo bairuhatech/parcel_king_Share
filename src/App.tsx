@@ -24,6 +24,8 @@ import AboutUs from "./app/more/aboutus";
 import Investors from "./app/more/investors";
 import Benefits from "./app/more/benefits";
 import GetMoreWork from "./app/more/getMoreWork";
+import VehicleRequirements from "./app/drivers/vehicleRequirement";
+import Blog from "./component/blog";
 function App() {
   return (
     <div className="App">
@@ -36,10 +38,8 @@ function App() {
         <Route path="/lernMoreDrivers" element={<LernMoreDrivers />} />
         <Route path="/lastmiledelivery" element={<LastMileDelivered />} />
         <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
-        <Route
-          path="/individualhelpmoving"
-          element={<IndividualHelpmoving />}
-        />
+        <Route path="/vehiclerequirements" element={<VehicleRequirements />} />
+        <Route path="/individualhelpmoving"element={<IndividualHelpmoving />}/>
         <Route path="/ltlshipment" element={<LtlShipment />} />
         <Route path="/hotShotdelivery" element={<HotshotDelivery />} />
         <Route path="/pricingandbooking" element={<PricingAndBooking />} />
@@ -57,11 +57,8 @@ function App() {
           element={<IndividualRetaildelivery />}
         />
         <Route path="/contactus" element={<Contactus />} />
-        <Route path="/investors" element={<Investors />} />
-        <Route path="/hualingservices" element={<HualingServices />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/benefits" element={<Benefits />} />
-        <Route path="/getmorework" element={<GetMoreWork />} />
+        <Route path="/blog" element={<Blog />} />
+
       </Routes>
     </div>
   );

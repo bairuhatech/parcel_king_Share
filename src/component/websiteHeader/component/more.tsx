@@ -28,7 +28,7 @@ function HeaderMore() {
     {
       id: "5",
       title: "Blog",
-      route: "",
+      route: "/blog",
     },
     {
       id: "6",
