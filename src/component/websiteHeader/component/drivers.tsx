@@ -24,7 +24,7 @@ function HeaderDrivers() {
     {
       id: "4",
       title: "Reviews",
-      route: "",
+      route: "/driver-review",
     },
     {
       id: "5",
@@ -44,7 +44,7 @@ function HeaderDrivers() {
     {
       id: "8",
       title: "Fleet Owners",
-      route: "",
+      route: "/fleetowners",
     },
     {
       id: "9",

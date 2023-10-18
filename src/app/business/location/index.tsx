@@ -27,7 +27,7 @@ function DeliveryLocation() {
       />
       <Location />
       <PricingAndBookingForm />
-      <LocationSites />
+      {/* <LocationSites /> */}
       <br />
       <Footer />
     </>
