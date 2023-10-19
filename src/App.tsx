@@ -25,11 +25,11 @@ import Investors from "./app/more/investors";
 import Benefits from "./app/more/benefits";
 import GetMoreWork from "./app/more/getMoreWork";
 import VehicleRequirements from "./app/drivers/vehicleRequirement";
-import Blog from "./component/blog";
 import IndividualsReview from "./app/individuals/review";
 import DriverReview from "./app/drivers/review";
 import FleetOwners from "./app/drivers/fleetOwner";
 import FleetOwnersForm from "./app/drivers/fleetOwner/component/form";
+import MoreBlog from "./app/more/blog";
 function App() {
   return (
     <div className="App">
@@ -61,7 +61,7 @@ function App() {
           element={<IndividualRetaildelivery />}
         />
         <Route path="/contactus" element={<Contactus />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<MoreBlog />} />
 
         <Route path="/investors" element={<Investors />} />
         <Route path="/hualingservices" element={<HualingServices />} />

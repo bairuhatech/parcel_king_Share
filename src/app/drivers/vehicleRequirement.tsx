@@ -4,6 +4,7 @@ import Header from "../../component/websiteHeader";
 import Footer from "../../component/websiteFooter";
 import "./styles.scss";
 import Xemblem from '../../asset/image/X-Logo.jpg';
+import Twitterbox from "./twitterbox";
 
 function VehicleRequirements() {
   const style = {
@@ -129,7 +130,7 @@ function VehicleRequirements() {
               <br/>
               
               <div className="vehiclerequirements-text4">
-                After-Market Accessories
+                After -Market Accessories
               </div><br/>
               <div className="vehiclerequirements-para">
               Most after-market accessories will not disqualify your vehicle
@@ -260,7 +261,7 @@ function VehicleRequirements() {
               </div>
             </div>
             {/* //////////////////////////////////////============right section======================////////// */}
-            <div className="left-side-box3">
+            <div className="right-side-box1">
               <div className="vehiclerequirements-text5">Recent Posts</div>
               <div className="vehiclerequirements-para">
               <ul>
@@ -280,18 +281,7 @@ function VehicleRequirements() {
               </ul>
               </div>
               <div className="vehiclerequirements-text5">Follow Us</div>
-              <div className="twitter-box">
-                <div className="twitter-box-text1">Tweets from @ParcelKing3<hr/></div>
-                <img src={Xemblem} className="img-fluid x-emblem"/>
-                <br/>
-                <br/>
-                <br/>
-                <div className="twitter-box-text2"> Nothing to see here - yet</div> 
-                <div className="twitter-box-text3"> When they Tweet, their Tweets will show up here.</div>
-                <br/>
-                <br/>
-                <button className="buttoncustom">View on Twitter</button>
-                </div>
+              <Twitterbox/>
             </div>
           </div>
         
