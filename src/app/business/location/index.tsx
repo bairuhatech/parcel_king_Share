@@ -23,7 +23,7 @@ function DeliveryLocation() {
         Image={DeliveryLocationImage1}
         head={"Locations"}
         icon={<TfiLocationArrow color="red" size={30} />}
-        title={"Find a GoShare Delivery Pro in Your Hometown"}
+        title={"Find a Parcel King Delivery Pro in Your Hometown"}
       />
       <Location />
       <PricingAndBookingForm />

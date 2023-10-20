@@ -2,36 +2,36 @@ import React from "react";
 import "../styles.scss";
 // import Goshareimg from "../../../asset/image/shareCar.png";
 // import Goshareimg from "../../../asset/image/ShareTruck.png";
-import Goshareimg from "../../../asset/image/moving-truck_4171936.png";
+import Img from "../../../asset/image/moving-truck_4171936.png";
 function DriversBlock2() {
   const data = [
     {
-      image: Goshareimg,
+      image: Img,
       head: "Pickup Truck",
       title: "Average earnings up to $70 per hour",
     },
     {
-      image: Goshareimg,
+      image: Img,
       head: "Full-Sized Cargo Van",
       title: "Average earnings up to $105 per hour",
     },
     {
-      image: Goshareimg,
+      image: Img,
       head: "Box Truck",
       title: "Average earnings up to $168 per hour",
     },
     {
-      image: Goshareimg,
+      image: Img,
       head: "Courier (Cars, SUVs, Minivans)      ",
       title: "Average earnings up to $45 per hour",
     },
     {
-      image: Goshareimg,
+      image: Img,
       head: "Labor Only      ",
       title: "Average earnings up to $60 per hour ",
     },
     {
-      image: Goshareimg,
+      image: Img,
       head: "Fleets      ",
       title: "Click Here To LearnMore",
     },

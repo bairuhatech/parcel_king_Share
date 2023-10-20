@@ -23,7 +23,7 @@ function Investors() {
       <SectionBlock3
         head={"What is Parcel King"}
         title1={
-          "GoShare is a tech-enabled last mile logistics marketplace that connects pickup truck, box truck, and cargo van drivers with businesses and individuals to provide on-demand delivery and moving services. More than 100,000 customers and over 17,000 delivery professionals rely on GoShare’s technology to provide fast, reliable and low cost delivery experiences. We specialize in transporting big and bulky cargo. As an economic empowerment platform, GoShare enables thousands of drivers to manage their delivery business and provide critical delivery services to their regional communities while earning some of the best hourly wages in the gig economy. GoShare is currently accessible in over 45 metros across the US and growing fast. Our proprietary technology stack includes mobile apps, web applications, and APIs used to create seamless delivery and moving experiences. GoShare is a licensed broker with the department of transportation, DOT # 3222813 and licensed by the California Bureau of Household Goods and Services Division of Household Movers CA# 545742"
+          "Parcel-King is a tech-enabled last mile logistics marketplace that connects pickup truck, box truck, and cargo van drivers with businesses and individuals to provide on-demand delivery and moving services. More than 100,000 customers and over 17,000 delivery professionals rely on Parcel-King’s technology to provide fast, reliable and low cost delivery experiences. We specialize in transporting big and bulky cargo. As an economic empowerment platform, Parcel-King enables thousands of drivers to manage their delivery business and provide critical delivery services to their regional communities while earning some of the best hourly wages in the gig economy. Parcel-King is currently accessible in over 45 metros across the US and growing fast. Our proprietary technology stack includes mobile apps, web applications, and APIs used to create seamless delivery and moving experiences. Parcel-King is a licensed broker with the department of transportation, DOT # 3222813 and licensed by the California Bureau of Household Goods and Services Division of Household Movers CA# 545742"
         }
         title2={
           "Our mission is to organize the world’s trucks to make them more accessible and useful."
@@ -34,7 +34,7 @@ function Investors() {
         image1={CardImg1}
         head1={"Award-Winning Technology"}
         title1={
-          "GoShare’s proprietary mobile & web apps create better last-mile delivery experiences."
+          "Parcel-King’s proprietary mobile & web apps create better last-mile delivery experiences."
         }
         image2={CardImg2}
         head2={"Strong Financial Performance"}
@@ -44,7 +44,7 @@ function Investors() {
         image3={CardImg3}
         head3={"Trusted By the Best"}
         title3={
-          "GoShare is used by leaders in retail, industrial supply, automotive, and the food/beverage industry"
+          "Parcel-King is used by leaders in retail, industrial supply, automotive, and the food/beverage industry"
         }
       />
       <InvestorsForm />

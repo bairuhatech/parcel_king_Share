@@ -19,7 +19,7 @@ function Contactus() {
       <SectionBlock3
         head={"Customer & Driver Support"}
         title1={
-          "Thank you for your interest in working with GoShare! We look forward to assisting you. Please review our self-help links below. If you do not find an answer to your questions, you can reach us via chat and email. Customer Support is available weekdays from 4:00 AM – 9:00 PM PST and weekends from 5:00 AM – 9:00 PM PST. Chat is the fastest way to reach us which you can start by clicking on the blue icon on the bottom right of this screen. Our offices will be closed on major holidays including New Year’s Day, Memorial Day, the Fourth of July, Thanksgiving, and Christmas."
+          "Thank you for your interest in working with Parcel-King! We look forward to assisting you. Please review our self-help links below. If you do not find an answer to your questions, you can reach us via chat and email. Customer Support is available weekdays from 4:00 AM – 9:00 PM PST and weekends from 5:00 AM – 9:00 PM PST. Chat is the fastest way to reach us which you can start by clicking on the blue icon on the bottom right of this screen. Our offices will be closed on major holidays including New Year’s Day, Memorial Day, the Fourth of July, Thanksgiving, and Christmas."
         }
       />
       <DriverContactForm />

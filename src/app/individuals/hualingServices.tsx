@@ -22,13 +22,13 @@ function HualingServices() {
       <SectionBlock1
         Image={Image1}
         head={"Hauling Service On Demand"}
-        title={"Book hauling help on demand with GoShare"}
+        title={"Book hauling help on demand with Parcel-King"}
         ButtonPrimary={"Free Estimate"}
       />
       <SectionBlock2
         Image={Image2}
         title1={
-          "GoShare offers an on-demand hauling service to help you get rid of old junk or clean out your garage/basement or old storage unit. Our network of professional haulers will help you load and deliver your items to a dump or recycling center. Please contact your local recycling center in advance to find out their recycling costs and their hours of operations before scheduling your GoShare pickup. The appliance recycling costs from the recycling center are separate from Parcel King pickup and delivery fee. The delivery professional will charge the recycling fees to their own credit card and then add the charges to your final bill."
+          "Parcel-King offers an on-demand hauling service to help you get rid of old junk or clean out your garage/basement or old storage unit. Our network of professional haulers will help you load and deliver your items to a dump or recycling center. Please contact your local recycling center in advance to find out their recycling costs and their hours of operations before scheduling your Parcel-King pickup. The appliance recycling costs from the recycling center are separate from Parcel King pickup and delivery fee. The delivery professional will charge the recycling fees to their own credit card and then add the charges to your final bill."
         }
       />
       <Block3 />

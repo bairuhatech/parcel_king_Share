@@ -28,7 +28,7 @@ function CareerForm() {
             "Get started by filling out the short application form below. We are currently only accepting applicants in the United States and Brazil. No relocation assistance provided. Must be authorized to work in the US for all US based positions."
           }
           title2={
-            "This application page is for corporate positions only. If you are interested in driving for GoShare as a Delivery Professional, please visit our Driver Page.          "
+            "This application page is for corporate positions only. If you are interested in driving for Parcel-King as a Delivery Professional, please visit our Driver Page.          "
           }
         />
         <Container>
