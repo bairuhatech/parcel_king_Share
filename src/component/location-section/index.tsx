@@ -15,8 +15,8 @@ function Location() {
           </div>
           <br />
           <div className="location-Txt1">
-            Vote to bring GoShare to your city! Fill out the form below to let
-            us know you want GoShare to come to your area. If you have applied
+            Vote to bring Parcel-King to your city! Fill out the form below to let
+            us know you want Parcel-King to come to your area. If you have applied
             to become a driver you do not need to fill out this form. Your
             application will count as a vote toward your city.
           </div>

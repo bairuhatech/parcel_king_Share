@@ -22,10 +22,10 @@ function FleetOwnersForm(props: any) {
       <SectionBlock3
         head={"Get More Loads for your Fleet of Trucks or Cargo Vans"}
         title1={
-          "GoShare is a leading marketplace for truck owners, van owners, and delivery professionals to connect with local businesses who need help with last mile delivery, middle mile delivery, LTL freight, and hot shot trucking deliveries. Whether you own a few vehicles or a few hundred, GoShare is the perfect partner and platform to help you find loads to supplement your fleet business. Fleet companies will have a DOT# or MC#. If you do not have a DOT# or MC#, click here to sign up as an individual. To see if we are in your city, go here."
+          "Parcel-King is a leading marketplace for truck owners, van owners, and delivery professionals to connect with local businesses who need help with last mile delivery, middle mile delivery, LTL freight, and hot shot trucking deliveries. Whether you own a few vehicles or a few hundred, Parcel-King is the perfect partner and platform to help you find loads to supplement your fleet business. Fleet companies will have a DOT# or MC#. If you do not have a DOT# or MC#, click here to sign up as an individual. To see if we are in your city, go here."
         }
         title2={
-          "Fill out the form below to get started. Our Driver Support Team will review your application and get in touch with you about the next steps for getting your fleet onto the GoShare platform. Our fleet partners go through a slightly different on-boarding process than individual truck owner-operators."
+          "Fill out the form below to get started. Our Driver Support Team will review your application and get in touch with you about the next steps for getting your fleet onto the Parcel-King platform. Our fleet partners go through a slightly different on-boarding process than individual truck owner-operators."
         }
       />
       <Form>

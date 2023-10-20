@@ -5,3 +5,113 @@
   color: vars.$Primary-Color;
   text-align: center;
 }
+
+////////////////////////////==========================BLOG=================///////////////////////
+.moreblog-box1 {
+  width: 100%;
+  height: 100%;
+  padding: 56px 50px 70px 50px;
+  @media only screen and (max-width: 576px) {
+    padding: 0px;
+  }
+}
+
+.moreblog-box2 {
+  height: 100%;
+  width: 100%;
+}
+.moreblog-text1 {
+  width: 100%;
+  font-family: vars.$Montserrat-Bold;
+  font-size: 25px;
+  color: #707070;
+  text-align: center;
+  padding: 4px;
+}
+.carouselimage {
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+  @media only screen and (max-width: 768px) {
+    height: 50vh;
+  }
+}
+.moreblog-text2 {
+  font-family: vars.$Montserrat-ExtraBold;
+  color: #ffff;
+  font-size: 40px;
+  @media only screen and (max-width: 768px) {
+    font-size: 35px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    font-size: 25px;
+  }
+}
+
+.carousel-indicators {
+  visibility: hidden;
+}
+
+/////////////////===================BLOG LEFT SIDE/////////////////////////////============
+
+.blogleft-box1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+}
+.blogleft-box2 {
+  width: 75%;
+  height: 100%;
+  padding: 0px 45px 10px 0px;
+  flex-wrap: wrap;
+  display: flex;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 0px;
+  }
+}
+.blogleft-box3 {
+  padding: 0px 20px 30px 20px;
+  @media only screen and (max-width: 576px) {
+    padding: 16px;
+  }
+}
+
+.imgclass {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.moreblog-text3 {
+  width: 100%;
+  font-family: vars.$Montserrat-Bold;
+  font-size: 30px;
+  @media only screen and (max-width: 768px) {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.moreblog-text4{
+  font-family: vars.$Montserrat-Medium;
+  font-size: 10px;
+}
+
+.moreblog-text {
+  width: 100%;
+  font-family: vars.$Montserrat-Regular;
+}
+
+//////////////===============RIGHT SIDE============////////////
+.blogright-box1 {
+  width: 25%;
+  height: 100%;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 16px;
+  }
+}

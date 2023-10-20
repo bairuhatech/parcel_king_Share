@@ -26,10 +26,10 @@ function Donate() {
       <SectionBlock2
         Image={Image2}
         title1={
-          "If you have some old furniture lying around that you want to get rid of, use GoShare to hire a professional to pickup and take your old furniture to a recycling center or possibly to a donation center. Please contact your local recycling or donation center in advance to find out if they will accept your items and their hours of operations before scheduling your GoShare pickup. "
+          "If you have some old furniture lying around that you want to get rid of, use Parcel-King to hire a professional to pickup and take your old furniture to a recycling center or possibly to a donation center. Please contact your local recycling or donation center in advance to find out if they will accept your items and their hours of operations before scheduling your Parcel-King pickup. "
         }
         title2={
-          " The furniture recycling costs from the recycling center are separate from GoShare’s pickup and delivery fee. The delivery professionals will charge the recycling fees to their own credit card and then add the charges to your final bill."
+          " The furniture recycling costs from the recycling center are separate from Parcel-King’s pickup and delivery fee. The delivery professionals will charge the recycling fees to their own credit card and then add the charges to your final bill."
         }
       />
       <Block3 />

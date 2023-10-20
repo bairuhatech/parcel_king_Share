@@ -17,14 +17,14 @@ function IndividualsReview() {
       <br />
       <SectionBlock1 Image={Image1} head={"Parcel King Reviews - Customers"} />
       <SectionBlock3
-        head={"Real Reviews From GoShare Customers"}
+        head={"Real Reviews From Parcel-King Customers"}
         subHead1={"10 out of 10"}
         title1={
           "“The app is easy to navigate and customer service are paying attention to your needs and find the best possible ways to help with your project. It’s a 10/10 for me…”"
         }
         subHead2={"Above and Beyond"}
         title2={
-          "This was the first time I used GoShare and I found it extremely easy and the driver I used was a great person going above and beyond what I would have expected. I will be using this application rather than renting a truck from here on in."
+          "This was the first time I used Parcel-King and I found it extremely easy and the driver I used was a great person going above and beyond what I would have expected. I will be using this application rather than renting a truck from here on in."
         }
         subHead3={"Smooth Transition"}
         title3={
@@ -44,7 +44,7 @@ function IndividualsReview() {
         }
         subHead7={"Delivered Right to My Door"}
         title7={
-          "“I love to shop at Homegoods but in the past I always passed on larger items as I stood contemplating how I would get the piece home. Now I don’t have to worry! With GoShare I can purchase those items I want and have them delivered right to my door. I purchased a beautiful outdoor set today at 11am signed up for GoShare at 2:30 and my furniture was at my house by 4:45pm. I love this service. John my delivery man was awesome too”"
+          "“I love to shop at Homegoods but in the past I always passed on larger items as I stood contemplating how I would get the piece home. Now I don’t have to worry! With Parcel-King I can purchase those items I want and have them delivered right to my door. I purchased a beautiful outdoor set today at 11am signed up for Parcel-King at 2:30 and my furniture was at my house by 4:45pm. I love this service. John my delivery man was awesome too”"
         }
         subHead8={"Last-Minute Delivery Help in 15 Minutes"}
         title8={

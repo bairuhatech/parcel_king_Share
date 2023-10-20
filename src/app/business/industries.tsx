@@ -30,7 +30,7 @@ function BusinessIndustries() {
           "Parcel king is proud to provide delivery services and logistics to businesses of all shapes and sizes."
         }
         title1={
-          "Businesses from a variety of industries who are looking for a modern and efficient delivery solution choose GoShare. We’ll quickly find you a Delivery Pro for a cross-town delivery of auto-parts, a last mile delivery of furniture, or a middle mile pallet move from warehouse to warehouse. With our easy to use technology solutions you’ll get new insights into your logistics operations along with time and cost savings. We give you access to all of your delivery data in one place. GoShare has over 6,000 Delivery Professionals to meet your unique needs 18 hours a day, 7 days a week. All of our delivery professionals are licensed, insured and background checked. Here is a list of some of the industries GoShare serves."
+          "Businesses from a variety of industries who are looking for a modern and efficient delivery solution choose Parcel-King. We’ll quickly find you a Delivery Pro for a cross-town delivery of auto-parts, a last mile delivery of furniture, or a middle mile pallet move from warehouse to warehouse. With our easy to use technology solutions you’ll get new insights into your logistics operations along with time and cost savings. We give you access to all of your delivery data in one place. Parcel-King has over 6,000 Delivery Professionals to meet your unique needs 18 hours a day, 7 days a week. All of our delivery professionals are licensed, insured and background checked. Here is a list of some of the industries Parcel-King serves."
         }
       />
       <SectionCard1

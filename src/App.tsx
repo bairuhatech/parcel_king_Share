@@ -24,10 +24,12 @@ import AboutUs from "./app/more/aboutus";
 import Investors from "./app/more/investors";
 import Benefits from "./app/more/benefits";
 import GetMoreWork from "./app/more/getMoreWork";
+import VehicleRequirements from "./app/drivers/vehicleRequirement";
 import IndividualsReview from "./app/individuals/review";
 import DriverReview from "./app/drivers/review";
 import FleetOwners from "./app/drivers/fleetOwner";
 import FleetOwnersForm from "./app/drivers/fleetOwner/component/form";
+import MoreBlog from "./app/more/blog";
 import ResourceCenter from "./app/drivers/resourceCenter";
 import News from "./app/drivers/news";
 function App() {
@@ -42,6 +44,7 @@ function App() {
         <Route path="/lernMoreDrivers" element={<LernMoreDrivers />} />
         <Route path="/lastmiledelivery" element={<LastMileDelivered />} />
         <Route path="/middlemistdelivery" element={<MiddleMileDelivery />} />
+        <Route path="/vehiclerequirements" element={<VehicleRequirements />} />
         <Route
           path="/individualhelpmoving"
           element={<IndividualHelpmoving />}
@@ -63,6 +66,8 @@ function App() {
           element={<IndividualRetaildelivery />}
         />
         <Route path="/contactus" element={<Contactus />} />
+        <Route path="/blog" element={<MoreBlog />} />
+
         <Route path="/investors" element={<Investors />} />
         <Route path="/hualingservices" element={<HualingServices />} />
         <Route path="/donate" element={<Donate />} />

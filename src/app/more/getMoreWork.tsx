@@ -16,7 +16,7 @@ function GetMoreWork() {
       <br />
       <SectionBlock1
         Image={Image1}
-        head={"How to Get More Work with GoShare"}
+        head={"How to Get More Work with Parcel-King"}
         title={
           "Secure more projects and earn bonuses with these tips and resources."
         }
@@ -26,15 +26,15 @@ function GetMoreWork() {
         head={"Start Earning More Money Today"}
         subHead1={"Get More Work"}
         title1={
-          "Give your GoShare promo code to friends and new business partners. Post your code on facebook, twitter and other popular social networks to maximize your reach. The new customers that you bring in get 5% off their first order. You’ll get an exclusive first notification on any project that comes through with your code, allowing you to accept before other delivery pros. Drop off custom business cards with your promo code on them at local retailers to see the biggest boost to your numbers."
+          "Give your Parcel-King promo code to friends and new business partners. Post your code on facebook, twitter and other popular social networks to maximize your reach. The new customers that you bring in get 5% off their first order. You’ll get an exclusive first notification on any project that comes through with your code, allowing you to accept before other delivery pros. Drop off custom business cards with your promo code on them at local retailers to see the biggest boost to your numbers."
         }
         subHead2={"Magnets For Branding"}
         title2={
-          "Add a GoShare magnet to your truck for brand awareness marketing in your community. This also helps GoShare customers recognize you when you arrive."
+          "Add a Parcel-King magnet to your truck for brand awareness marketing in your community. This also helps Parcel-King customers recognize you when you arrive."
         }
         subHead3={"$50 Delivery Pro Referral Bonus"}
         title3={
-          "Do you have friends or family that own a pickup truck, cargo van, box truck or car who want to earn more money? Refer them to GoShare and get paid! Once they complete their first project, we will send you a $50 bonus. When your friend signs up, they must enter your referral code. If they do not enter your code, we are not able to award the bonus."
+          "Do you have friends or family that own a pickup truck, cargo van, box truck or car who want to earn more money? Refer them to Parcel-King and get paid! Once they complete their first project, we will send you a $50 bonus. When your friend signs up, they must enter your referral code. If they do not enter your code, we are not able to award the bonus."
         }
       />
       <SectionBlock3

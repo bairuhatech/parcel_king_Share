@@ -8,7 +8,7 @@ function PricingAndBookingForm() {
       <div className="PricingAndBookingForm-Box1">
         <div className="PricingAndBookingForm-Box2">
           <div className="PricingAndBookingForm-Txt1">
-            Let Us Know You Want GoShare in Your Hometown
+            Let Us Know You Want Parcel-King in Your Hometown
           </div>
           <Form>
             <Col md={12}>

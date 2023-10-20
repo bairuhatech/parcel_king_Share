@@ -8,7 +8,7 @@ function InvestorsForm() {
       <div className="p-3">
         <Col md={12} xs={12}>
           <div className="Business-HeadTxt">
-            Interested in investing in GoShare?
+            Interested in investing in Parcel-King?
           </div>
           <Col md={{ span: 4, offset: 2 }} xs={12} sm={8}>
             <div>
