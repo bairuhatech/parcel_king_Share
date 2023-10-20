@@ -66,7 +66,7 @@ function Header(props: any) {
                 Login
               </div>
               <div>
-                <Button className="websiteHeader-Bttn">BOOK NOW</Button>
+                <Button className="websiteHeader-Bttn" onClick={()=> navigate("/booknow")}>BOOK NOW</Button>
               </div>
             </div>
             <div className="webSiteHeader-Box4">
