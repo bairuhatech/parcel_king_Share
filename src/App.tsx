@@ -32,6 +32,8 @@ import FleetOwnersForm from "./app/drivers/fleetOwner/component/form";
 import MoreBlog from "./app/more/blog";
 import ResourceCenter from "./app/drivers/resourceCenter";
 import News from "./app/drivers/news";
+import Booknow from "./component/booknow";
+
 function App() {
   return (
     <div className="App">
@@ -79,6 +81,7 @@ function App() {
         <Route path="/fleet-signup" element={<FleetOwnersForm />} />
         <Route path="/resources-center" element={<ResourceCenter />} />
         <Route path="/News" element={<News />} />
+        <Route path="/booknow" element={<Booknow/>}/>
       </Routes>
     </div>
   );
