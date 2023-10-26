@@ -31,7 +31,7 @@ const BgCheck = () => {
               <img src={BgCheckImage} className="img-fluid" />
               <br />
               <br />
-              <div className="vehiclerequirements-text2">
+              <div className="Business-HeadTxt">
                 Why Does Parcel-King Require a Background Check?
                 <br />
                 
