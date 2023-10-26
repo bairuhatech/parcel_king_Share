@@ -35,6 +35,8 @@ import News from "./app/drivers/news";
 import Faq from "./app/drivers/faq";
 import Helper from "./app/drivers/faq/helper";
 import BgCheck from "./app/drivers/faq/backgroundcheck";
+import Booknow from "./component/booknow";
+
 function App() {
   return (
     <div className="App">
@@ -86,6 +88,7 @@ function App() {
         <Route path="/helper" element={<Helper/>} />
         <Route path="/bgcheck" element={<BgCheck/>} />
 
+        <Route path="/booknow" element={<Booknow/>}/>
       </Routes>
     </div>
   );
