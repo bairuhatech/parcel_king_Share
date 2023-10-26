@@ -38,7 +38,7 @@ function HeaderDrivers() {
     },
     {
       id: "7",
-      title: "Vehicle Recuirements",
+      title: "Vehicle Requirements",
       route: "/vehiclerequirements",
     },
     {
@@ -53,8 +53,8 @@ function HeaderDrivers() {
     },
     {
       id: "10",
-      title: "Frequently Ask Questions",
-      route: "",
+      title: "Frequently Asked Questions",
+      route: "/faq",
     },
   ];
   const handleClik = (val: any) => {

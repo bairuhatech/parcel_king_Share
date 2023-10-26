@@ -8,6 +8,7 @@ import img1 from "../../../asset/image/delivery.jpg";
 import img2 from "../../../asset/image/deliverCareer2.jpg";
 import img3 from "../../../asset/image/deliverLocation1.jpg";
 import img4 from "../../../asset/image/deliveryBoy.jpg";
+import Recentposts from "../../drivers/recentposts";
 const MoreBlog = () => {
   const style = {
     background: "linear-gradient(208deg, #3d5877 0%, #151e29 100%)",
@@ -74,25 +75,7 @@ const MoreBlog = () => {
           
 
           <div className="blogright-box1">
-              <div className="vehiclerequirements-text5">Recent Posts</div>
-              <div className="vehiclerequirements-para">
-              <ul>
-                <li>
-                  How ParcelKing Can Benefit Retailers with Shorter and Cheaper
-                  Last Mile Delivery
-                </li>
-                <li>
-                  Embracing the Future of Delivery: How ParcelKing’s Artificial
-                  Intelligence is Modernizing Retail Delivery
-                </li>
-                <li>
-                  Why ParcelKing Collects Proof of Delivery for Every Project
-                </li>
-                <li>Best Cargo Vans 2023</li>
-                <li>Customer Spotlight: Good</li>
-              </ul>
-              </div>
-              <div className="vehiclerequirements-text5">Follow Us</div>        
+          < Recentposts/>       
             <Twitterbox />
             </div>
           </div>

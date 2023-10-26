@@ -7,7 +7,7 @@ function SectionBlock1(props: any) {
   return (
     <>
       <div className="SectionBlock1-Box1">
-        <img className="img" src={props.Image} alt="" />
+        <img className="img" loading="lazy" src={props.Image} alt="" />
       </div>
       <div className="SectionBlock1-Box2">
         <div className="SectionBlock1-Txt1">

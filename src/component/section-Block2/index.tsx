@@ -21,7 +21,7 @@ function SectionBlock2(props: any) {
           <Col md={6}>
             <div className="SectionBlock2-Box2">
               <div className="SectionBlock2-Box3">
-                <img className="SectionBlock2-img" src={props.Image} alt="" />
+                <img className="SectionBlock2-img" loading="eager" src={props.Image} alt="" />
               </div>
             </div>
           </Col>
@@ -37,14 +37,14 @@ function SectionBlock2(props: any) {
               ) : null}
               {/* <div className="SectionBlock2-Txt1">{title4}</div> */}
               {props.buttonTxt ? (
-                <div>
+                <Col lg={{span:8,offset:2}} md={12} sm={{span:10,offset:1}}>
                   <Button
                     className="form-Bttn2"
                     onClick={() => navigate(props.dynamicURL)}
                   >
                     {props.buttonTxt}
                   </Button>
-                </div>
+                </Col>
               ) : null}
             </div>
           </Col>
